@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "release-it": "17.0.1"
-
     
   },
   "repository": {

@@ -1,3 +1,12 @@
+## [1.0.8](https://github.com/yaswanth6240/test-repo/compare/v1.0.7...v1.0.8) (2024-01-18)
+
+
+### Bug Fixes
+
+* commit to check publish ([7d1f03b](https://github.com/yaswanth6240/test-repo/commit/7d1f03bdb61ee0ec85176e4e322ca71371798d0f))
+
+
+
 ## [1.0.7](https://github.com/yaswanth6240/test-repo/compare/v1.0.6...v1.0.7) (2024-01-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * commit to check publish ([7a76adf](https://github.com/yaswanth6240/test-repo/commit/7a76adf63cadcead2e808d950670d308c9052541))
-
-
-
-## [1.0.3](https://github.com/yaswanth6240/test-repo/compare/v1.0.2...v1.0.3) (2024-01-18)
-
-
-### Bug Fixes
-
-* commit to check release again ([e179839](https://github.com/yaswanth6240/test-repo/commit/e179839afdc5e13f26f4ababae4305e73110422f))
 
 
 

@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/yaswanth6240/test-repo/compare/v1.0.2...v1.0.3) (2024-01-18)
+
+
+### Bug Fixes
+
+* commit to check release again ([e179839](https://github.com/yaswanth6240/test-repo/commit/e179839afdc5e13f26f4ababae4305e73110422f))
+
+
+
 ## [1.0.2](https://github.com/yaswanth6240/test-repo/compare/v1.0.1...v1.0.2) (2024-01-18)
 
 

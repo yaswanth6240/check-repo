@@ -28,7 +28,7 @@
       "publish": true
     },
     "github": {
-      "release": false
+      "release": true
     }
   },
   "homepage": "https://github.com/yaswanth6240/test-repo#readme"

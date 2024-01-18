@@ -1,11 +1,11 @@
 {
   "name": "test-yaswanth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release" : "release-it"
+    "release": "release-it"
   },
   "devDependencies": {
     "release-it": "17.0.1"

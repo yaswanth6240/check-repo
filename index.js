@@ -8,3 +8,6 @@ console.log("Doing a check release again")
 console.log("Doing a publish check")
 
 console.log("Doing a publish")
+
+
+console.log("Doing a publish minor")

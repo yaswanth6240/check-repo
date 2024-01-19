@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/yaswanth6240/test-repo/compare/v1.1.0...v1.1.1) (2024-01-19)
+
+
+### Performance Improvements
+
+* backfilled changelog ([4eef5ef](https://github.com/yaswanth6240/test-repo/commit/4eef5efb7c08bcd3b05ca71e08c99c0ade2174c9))
+
+
+
 # [1.1.0](https://github.com/yaswanth6240/test-repo/compare/v1.0.11...v1.1.0) (2024-01-18)
 
 
@@ -34,19 +43,3 @@
 
 
 
-## [1.0.8](https://github.com/yaswanth6240/test-repo/compare/v1.0.7...v1.0.8) (2024-01-18)
-
-
-### Bug Fixes
-
-* commit to check publish ([7d1f03b](https://github.com/yaswanth6240/test-repo/commit/7d1f03bdb61ee0ec85176e4e322ca71371798d0f))
-
-
-## [1.0.7](https://github.com/yaswanth6240/test-repo/compare/v1.0.6...v1.0.7) (2024-01-18)
-
-
-
-
-### Bug Fixes
-
-* fix: commit to check publish ([7a729eb](https://github.com/yaswanth6240/test-repo/commit/7a729eb692bb1a905ff92bd4c540a026165b8ad6))

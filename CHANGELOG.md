@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/yaswanth6240/test-repo/compare/v1.1.5...v2.0.0) (2024-01-19)
+
+
+### Features
+
+* allow provided config object to extend other configs ([7852a4e](https://github.com/yaswanth6240/test-repo/commit/7852a4e1871dabe4e9d79f861cd869a4727be8b2))
+
+
+### BREAKING CHANGES
+
+* key in config file is now used for extending other config files
+
+
+
 ## [1.1.5](https://github.com/yaswanth6240/test-repo/compare/v1.1.4...v1.1.5) (2024-01-19)
 
 

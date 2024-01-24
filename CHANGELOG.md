@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/yaswanth6240/test-repo/compare/v2.0.0...v2.0.1) (2024-01-24)
+
+
+### Bug Fixes
+
+* Check gitversion ([a7acd59](https://github.com/yaswanth6240/test-repo/commit/a7acd591f1fdb9e700e1b742c7200f37366d70c3))
+
+
+
 # [2.0.0](https://github.com/yaswanth6240/test-repo/compare/v1.1.5...v2.0.0) (2024-01-19)
 
 

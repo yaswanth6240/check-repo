@@ -12,6 +12,7 @@ jobs:
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0.9.7
         with:
+        
           useConfigFile: true
           configFilePath: ./GitVersion.yml
       - name: Conventional Changelog Action

@@ -7,5 +7,3 @@ major-version-bump-message: '\+semver:\s?(breaking|major)'
 minor-version-bump-message: '\+semver:\s?(fix|minor)'
 patch-version-bump-message: '\+semver:\s?(feature|patch)'
 merge-message-formats: {}
-
-debug: "GitVersion.yml executed"

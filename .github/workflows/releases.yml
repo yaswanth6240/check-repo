@@ -16,10 +16,11 @@ jobs:
           github-token: ${{ secrets.RELEASE_TOKEN }}
           version-file: './package.json,./package-lock.json'
           release-count: 0
-      - name: create release
-        uses: actions/create-release@v1
+      - name: debug
         run: |
           echo "${{steps.changelog.outputs}}"
+      - name: create release
+        uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}

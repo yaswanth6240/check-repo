@@ -1,5 +1,5 @@
 assembly-versioning-scheme: MajorMinorPatch
-mode: Mainline
+mode: ContinuousDeployment
 ignore:
   sha: []
 major-version-bump-message: '\+semver:\s?(breaking|major)'
@@ -7,8 +7,5 @@ minor-version-bump-message: '\+semver:\s?(fix|minor)'
 patch-version-bump-message: '\+semver:\s?(feature|patch)'
 no-bump-message: '\+semver:\s?(none|skip)'
 commit-message-incrementing: Enabled
-commits-since-version-source-padding: 4
-legacy-semver-padding: 4
-build-metadata-padding: 4
 merge-message-formats: {}
 update-build-number: true

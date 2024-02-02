@@ -1,3 +1,12 @@
+## [2.0.6](https://github.com/yaswanth6240/test-repo/compare/v2.0.5...v2.0.6) (2024-02-02)
+
+
+### Bug Fixes
+
+* try release ([d71d6c9](https://github.com/yaswanth6240/test-repo/commit/d71d6c9261e16bd8c7f4a95df223291abc47e414))
+
+
+
 ## [2.0.5](https://github.com/yaswanth6240/test-repo/compare/v2.0.4...v2.0.5) (2024-02-02)
 
 

@@ -1,3 +1,12 @@
+## [2.0.38](https://github.com/yaswanth6240/test-repo/compare/v2.0.37...v2.0.38) (2024-02-02)
+
+
+### Bug Fixes
+
+* release bump ([481714d](https://github.com/yaswanth6240/test-repo/commit/481714d1354cd3dee3cdc587c7f65f4b353a4c9c))
+
+
+
 ## [2.0.37](https://github.com/yaswanth6240/test-repo/compare/v2.0.36...v2.0.37) (2024-02-02)
 
 

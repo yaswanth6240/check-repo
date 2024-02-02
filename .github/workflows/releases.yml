@@ -28,8 +28,9 @@ jobs:
 
       - name: Determine version
         run: |
+          cd GitVersion
           ls -la
-          ./GitVersion/GitVersion /config GitVersion.yml /output buildserver
+          dotnet GitVersion.dll /config GitVersion.yml /output buildserver
           echo "GitVersion_SemVer=$(cat GitVersion/_version.txt)" >> $GITHUB_ENV
 
       - name: create release

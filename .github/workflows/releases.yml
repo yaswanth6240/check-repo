@@ -26,7 +26,7 @@ jobs:
         run: |
           version_output=$(./gitversion /config GitVersion.yml /output buildserver)
           echo "GitVersion Output: $version_output"
-          echo "GitVersion_SemVer=${version_output}" >> $GITHUB_ENV
+          echo "GitVersion_SemVer=$version_output" >> $GITHUB_ENV
 
       - name: debug
         run: |

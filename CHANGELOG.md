@@ -1,3 +1,13 @@
+## [2.0.34](https://github.com/yaswanth6240/test-repo/compare/v2.0.33...v2.0.34) (2024-02-02)
+
+
+### Bug Fixes
+
+* release ([e9e5bf0](https://github.com/yaswanth6240/test-repo/commit/e9e5bf06b59b343a3de225a7b8131beee821e6cb))
+* release ([45b92c1](https://github.com/yaswanth6240/test-repo/commit/45b92c1194a1629999eb149e68b00085ac375dc0))
+
+
+
 ## [2.0.33](https://github.com/yaswanth6240/test-repo/compare/v2.0.32...v2.0.33) (2024-02-02)
 
 

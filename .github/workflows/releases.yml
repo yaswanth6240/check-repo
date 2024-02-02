@@ -16,10 +16,23 @@ jobs:
           github-token: ${{ secrets.RELEASE_TOKEN }}
           version-file: './package.json,./package-lock.json'
           release-count: 0
+
+      - name: Install GitVersion
+        run: |
+          wget https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-x64-5.12.0.tar.gz
+          tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
+
+      - name: Determine version
+        run: |
+          ./gitversion /config GitVersion.yml /output buildserver
+          echo "GitVersion_SemVer=$(cat _version.txt)" >> $GITHUB_ENV
+
       - name: debug
         run: |
           echo "${{steps.changelog.outputs.tag}}"
           echo "${{steps.changelog.outputs.clean_changelog}}"
+          echo "${{GitVersion_SemVer}}"
+
       - name: create release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}

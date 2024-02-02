@@ -8,13 +8,7 @@ jobs:
   changelog:
     runs-on: ubuntu-latest
     steps:
-      - name: execute gitversion
-        id: gitversion
-        uses: gittools/actions/gitversion/execute@v0.9.7
-        with:
-        
-          useConfigFile: true
-          configFilePath: ./GitVersion.yml
+      - uses: actions/checkout@v2
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3.7.1
@@ -22,7 +16,7 @@ jobs:
           github-token: ${{ secrets.RELEASE_TOKEN }}
           version-file: './package.json,./package-lock.json'
           release-count: 0
-      - name: create release 
+      - name: create release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:

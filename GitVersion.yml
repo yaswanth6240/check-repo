@@ -7,7 +7,6 @@ ignore:
 major-version-bump-message: '\+semver:\s?(breaking|major)'
 minor-version-bump-message: '\+semver:\s?(fix|minor)'
 patch-version-bump-message: '\+semver:\s?(feature|patch)'
-no-bump-message: '\+semver:\s?(none|skip)'
 commit-message-incrementing: Enabled
 merge-message-formats: {}
 update-build-number: true

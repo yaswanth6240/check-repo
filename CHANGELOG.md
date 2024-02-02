@@ -1,3 +1,12 @@
+## [2.0.48](https://github.com/yaswanth6240/test-repo/compare/v2.0.47...v2.0.48) (2024-02-02)
+
+
+### Bug Fixes
+
+* minor release ([db9b2cf](https://github.com/yaswanth6240/test-repo/commit/db9b2cf938e554d56b828643cdfda922d1f39b0a))
+
+
+
 ## [2.0.47](https://github.com/yaswanth6240/test-repo/compare/v2.0.46...v2.0.47) (2024-02-02)
 
 

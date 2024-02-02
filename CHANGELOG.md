@@ -1,3 +1,16 @@
+## [2.0.5](https://github.com/yaswanth6240/test-repo/compare/v2.0.4...v2.0.5) (2024-02-02)
+
+
+### Bug Fixes
+
+* setting release ([272f271](https://github.com/yaswanth6240/test-repo/commit/272f27106f14ead4b9e6151eea057364fef29823))
+* version ([55062ce](https://github.com/yaswanth6240/test-repo/commit/55062cea0f0f5c01209e59c757454caf4cd5f88d))
+* version ([f1e6f67](https://github.com/yaswanth6240/test-repo/commit/f1e6f679f88baf91fbacebab288695550edb2476))
+* version ([f340eff](https://github.com/yaswanth6240/test-repo/commit/f340effafcf6d7d02a55d158c98bac5c4a2347b8))
+* version ([0b563ec](https://github.com/yaswanth6240/test-repo/commit/0b563ecde76b284e9c56c9d57e2a16687091071b))
+
+
+
 ## [2.0.4](https://github.com/yaswanth6240/test-repo/compare/v2.0.3...v2.0.4) (2024-01-24)
 
 

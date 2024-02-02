@@ -29,10 +29,10 @@ jobs:
 
       - name: debug
         run: |
+          cat GitVersion.yml
           echo "${{steps.changelog.outputs.tag}}"
           echo "${{steps.changelog.outputs.clean_changelog}}"
           echo "${{env.GitVersion_SemVer}}"
-
 
       - name: create release
         uses: actions/create-release@v1

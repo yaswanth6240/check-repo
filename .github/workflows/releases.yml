@@ -26,7 +26,6 @@ jobs:
 
       - name: Determine version
         run: |
-          cd gitversion
           ./gitversion /config GitVersion.yml /output buildserver
           echo "GitVersion_SemVer=$(cat _version.txt)" >> $GITHUB_ENV
 

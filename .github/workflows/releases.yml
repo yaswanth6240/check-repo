@@ -24,14 +24,16 @@ jobs:
 
       - name: Determine version
         run: |
-          ./gitversion /config GitVersion.yml /output buildserver
-          echo "GitVersion_SemVer=$(cat _version.txt)" >> $GITHUB_ENV
+          version_output = $(./gitversion /config GitVersion.yml /output buildserver)
+          echo "GitVersion Output: $version_output"
+          export GitVersion_SemVer=$(echo "$version_output" | grep "SemVer" | cut -d'=' -f2 | tr -d '[:space:]')
+          echo "GitVersion_SemVer=$GitVersion_SemVer" >> $GITHUB_ENV
 
       - name: debug
         run: |
           echo "${{steps.changelog.outputs.tag}}"
           echo "${{steps.changelog.outputs.clean_changelog}}"
-          echo "${{GitVersion_SemVer}}"
+          echo "${{env.GitVersion_SemVer}}"
 
       - name: create release
         uses: actions/create-release@v1

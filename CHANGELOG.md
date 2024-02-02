@@ -1,3 +1,12 @@
+## [2.0.40](https://github.com/yaswanth6240/test-repo/compare/v2.0.39...v2.0.40) (2024-02-02)
+
+
+### Bug Fixes
+
+* trying to do release ([5d14563](https://github.com/yaswanth6240/test-repo/commit/5d145631bda72bd13c29f3cf72e2383bad4ab720))
+
+
+
 ## [2.0.39](https://github.com/yaswanth6240/test-repo/compare/v2.0.38...v2.0.39) (2024-02-02)
 
 

@@ -26,16 +26,9 @@ jobs:
         run: |
           version_output=$(./gitversion /config GitVersion.yml /output buildserver)
           echo "$version_output" > gitversion_output.txt
-          cat gitversion_output.txt
-      
-      - name: Set GitVersion_SemVer
-        run: |
-          export GitVersion_SemVer=$(cat gitversion_output.txt)
-          echo "GitVersion_SemVer=$GitVersion_SemVer" >> $GITHUB_ENV
 
       - name: debug
         run: |
-          printenv
           echo "${{steps.changelog.outputs.tag}}"
           echo "${{steps.changelog.outputs.clean_changelog}}"
           echo "${{env.GitVersion_SemVer}}"
@@ -46,6 +39,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
+          tag_name: "v${{ env.GitVersion_SemVer }}"
+          release_name: "v${{ env.GitVersion_SemVer }}"
           body: ${{ steps.changelog.outputs.clean_changelog }}

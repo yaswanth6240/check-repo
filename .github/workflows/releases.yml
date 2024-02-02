@@ -18,7 +18,8 @@ jobs:
           release-count: 0
       - name: debug
         run: |
-          echo "${{steps.changelog.outputs}}"
+          echo "${{steps.changelog.outputs.tag}}"
+          echo "${{steps.changelog.outputs.clean_changelog}}"
       - name: create release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}

@@ -1,3 +1,12 @@
+# [2.1.0](https://github.com/yaswanth6240/test-repo/compare/v2.0.54...v2.1.0) (2024-02-02)
+
+
+### Features
+
+* commit ([a9074ff](https://github.com/yaswanth6240/test-repo/commit/a9074ff8cc8809aa0daacddb6c36901dfdd697ea))
+
+
+
 ## [2.0.54](https://github.com/yaswanth6240/test-repo/compare/v2.0.53...v2.0.54) (2024-02-02)
 
 

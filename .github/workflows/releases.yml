@@ -20,7 +20,7 @@ jobs:
       - name: Install GitVersion
         run: |
           wget https://github.com/GitTools/GitVersion/archive/refs/tags/5.12.0.zip
-          unzip -q GitVersion-5.12.0.zip -d GitVersion
+          unzip -q 5.12.0.zip -d GitVersion
 
           ls -la GitVersion
 

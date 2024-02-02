@@ -24,9 +24,8 @@ jobs:
 
       - name: Determine version
         run: |
-          version_output = $(./gitversion /config GitVersion.yml /output buildserver)
-          echo "GitVersion Output: $version_output"
-          export GitVersion_SemVer=$(echo "$version_output" | grep "SemVer" | cut -d'=' -f2 | tr -d '[:space:]')
+          export GitVersion_SemVer = $(echo ./gitversion /config GitVersion.yml /output buildserver)  | grep "SemVer" | cut -d'=' -f2 | tr -d '[:space:]')
+          echo "GitVersion Output: $GitVersion_SemVer"
           echo "GitVersion_SemVer=$GitVersion_SemVer" >> $GITHUB_ENV
 
       - name: debug

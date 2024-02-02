@@ -19,8 +19,8 @@ jobs:
       
       - name: Install GitVersion
         run: |
-          wget https://github.com/GitTools/GitVersion/releases/latest/download/GitVersion-bin-net5.0.zip
-          unzip -d GitVersion GitVersion-bin-net5.0.zip
+          wget https://github.com/GitTools/GitVersion/archive/refs/tags/5.12.0.zip
+          unzip -d GitVersion 5.12.0.zip
 
       - name: Determine version
         run: |

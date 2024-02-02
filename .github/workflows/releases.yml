@@ -30,7 +30,7 @@ jobs:
         run: |
           cd GitVersion/GitVersion-5.12.0
           ls -la
-           ./GitVersion /config GitVersion.yml /output buildserver
+           GitVersion /config GitVersion.yml /output buildserver
           echo "GitVersion_SemVer=$(cat GitVersion/_version.txt)" >> $GITHUB_ENV
 
       - name: create release

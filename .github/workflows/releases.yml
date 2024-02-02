@@ -25,11 +25,17 @@ jobs:
       - name: Determine version
         run: |
           version_output=$(./gitversion /config GitVersion.yml /output buildserver)
-          echo "GitVersion Output: $version_output"
-          echo "GitVersion_SemVer=$version_output" >> $GITHUB_ENV
+          echo "$version_output" > gitversion_output.txt
+          cat gitversion_output.txt
+      
+      - name: Set GitVersion_SemVer
+        run: |
+          export GitVersion_SemVer=$(cat gitversion_output.txt)
+          echo "GitVersion_SemVer=$GitVersion_SemVer" >> $GITHUB_ENV
 
       - name: debug
         run: |
+          printenv
           echo "${{steps.changelog.outputs.tag}}"
           echo "${{steps.changelog.outputs.clean_changelog}}"
           echo "${{env.GitVersion_SemVer}}"

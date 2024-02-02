@@ -1,3 +1,12 @@
+## [2.0.47](https://github.com/yaswanth6240/test-repo/compare/v2.0.46...v2.0.47) (2024-02-02)
+
+
+### Bug Fixes
+
+* fixed packe lock ([a40aa7f](https://github.com/yaswanth6240/test-repo/commit/a40aa7f659e2cfa1731d3e8cab51bbd5ce93ce60))
+
+
+
 ## [2.0.46](https://github.com/yaswanth6240/test-repo/compare/v2.0.45...v2.0.46) (2024-02-02)
 
 

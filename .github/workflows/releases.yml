@@ -16,7 +16,21 @@ jobs:
           github-token: ${{ secrets.RELEASE_TOKEN }}
           version-file: './package.json,./package-lock.json'
           release-count: 0
+      
+      - name: Install GitVersion
+        run: |
+          wget https://github.com/GitTools/GitVersion/releases/latest/download/GitVersion-bin-net5.0.zip
+          unzip -d GitVersion GitVersion-bin-net5.0.zip
+
+      - name: Determine version
+        run: |
+          ./GitVersion/GitVersion /config GitVersion.yml /output buildserver
+          echo "GitVersion_SemVer=$(cat GitVersion/_version.txt)" >> $GITHUB_ENV
+
       - name: create release
+        # run: |
+        #   git tag $GitVersion_SemVer
+        #   git push origin $GitVersion_SemVer
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:

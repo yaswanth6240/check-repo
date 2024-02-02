@@ -1,6 +1,5 @@
 assembly-versioning-scheme: MajorMinorPatch
 mode: Mainline
-branches: {}
 ignore:
   sha: []
 major-version-bump-message: '\+semver:\s?(breaking|major)'

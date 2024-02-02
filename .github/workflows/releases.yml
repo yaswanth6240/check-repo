@@ -20,7 +20,7 @@ jobs:
       - name: Install GitVersion
         run: |
           wget https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-x64-5.12.0.tar.gz
-          tar gitversion-linux-x64-5.12.0.tar.gz
+          tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
 
           ls -la
 

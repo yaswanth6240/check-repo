@@ -3,6 +3,7 @@ mode: ContinuousDeployment
 tag-prefix: '[vV]'
 ignore:
   sha: []
+
 major-version-bump-message: '\+semver:\s?(breaking|major)'
 minor-version-bump-message: '\+semver:\s?(fix|minor)'
 patch-version-bump-message: '\+semver:\s?(feature|patch)'

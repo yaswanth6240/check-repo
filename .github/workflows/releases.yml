@@ -24,7 +24,7 @@ jobs:
 
           ls -la GitVersion
 
-          chmod +x GitVersion/GitVersion
+          chmod +x GitVersion/GitVersion-5.12.0
 
       - name: Determine version
         run: |

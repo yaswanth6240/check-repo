@@ -44,3 +44,4 @@ jobs:
           tag_name: "v${{ env.GitVersion_SemVer }}"
           release_name: "v${{ env.GitVersion_SemVer }}"
           body: ${{ steps.changelog.outputs.clean_changelog }}
+

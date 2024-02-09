@@ -1,3 +1,12 @@
+## [2.1.2](https://github.com/yaswanth6240/test-repo/compare/v2.1.1...v2.1.2) (2024-02-09)
+
+
+### Bug Fixes
+
+* commit ([d89e030](https://github.com/yaswanth6240/test-repo/commit/d89e0304d661780cc9ead82023f65d09a2326718))
+
+
+
 ## [2.1.1](https://github.com/yaswanth6240/test-repo/compare/v2.1.0...v2.1.1) (2024-02-09)
 
 

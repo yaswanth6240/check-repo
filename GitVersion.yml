@@ -5,8 +5,9 @@ ignore:
   sha: []
 
 major-version-bump-message: '\+semver:\s?(breaking|major)'
-minor-version-bump-message: '\+semver:\s?(fix|minor)'
+minor-version-bump-message: '^fix'
 patch-version-bump-message: '\+semver:\s?(feature|patch)'
 commit-message-incrementing: Enabled
 merge-message-formats: {}
 update-build-number: true
+

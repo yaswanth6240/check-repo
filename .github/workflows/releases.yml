@@ -4,8 +4,22 @@ on:
     branches:
       - main
 
+  pull_request:
+    branches:
+      - main
+
 jobs:
-  changelog:
+  build-on-pr:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install GitVersion
+        run: |
+          wget https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-x64-5.12.0.tar.gz
+          tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
+  
+  release-on-push:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -44,4 +58,3 @@ jobs:
           tag_name: "v${{ env.GitVersion_SemVer }}"
           release_name: "v${{ env.GitVersion_SemVer }}"
           body: ${{ steps.changelog.outputs.clean_changelog }}
-

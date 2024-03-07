@@ -35,7 +35,6 @@ jobs:
           bump-minor: true
           preset: "conventionalcommits"
           config-file-path: .version-bump-rules.js
-          skip-on-empty: false
 
       - name: create release
         uses: actions/create-release@v1

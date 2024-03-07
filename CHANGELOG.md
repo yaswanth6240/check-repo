@@ -1,7 +1,11 @@
-##  (2024-03-07)
+## 0.1.0 (2024-03-07)
 
+* fix: try ([e5cf403](https://github.com/yaswanth6240/test-repo/commit/e5cf403))
 * fix: try ([de9109e](https://github.com/yaswanth6240/test-repo/commit/de9109e))
 * fix: try ([4a011e1](https://github.com/yaswanth6240/test-repo/commit/4a011e1))
+* fix: try release ([9f04283](https://github.com/yaswanth6240/test-repo/commit/9f04283))
+* fix: try release ([1852c68](https://github.com/yaswanth6240/test-repo/commit/1852c68))
+* chore(release): vnull [skip ci] ([a4730dd](https://github.com/yaswanth6240/test-repo/commit/a4730dd))
 
 
 

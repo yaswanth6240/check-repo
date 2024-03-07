@@ -22,12 +22,13 @@ module.exports = async () => {
     console.log("The config " + config)
   
     return Object.assign(conventionalCommitsConfig, {
-      recommendedBumpOpts: Object.assign(conventionalCommitsConfig.recommendedBumpOpts, {
+      recommendedBumpOpts: {
         whatBump: (commits) => {
           let level = 2
           let breakings = 0
           let features = 0
   
+          console.log("what bump called "+ commits)
           commits.forEach(commit => {
             // adds additional breaking change notes
             // for the special case, test(system)!: hello world, where there is
@@ -55,7 +56,7 @@ module.exports = async () => {
               : `There are ${breakings} BREAKING CHANGES and ${features} features`
           }
         }
-      })
+      }
     })
   }
 

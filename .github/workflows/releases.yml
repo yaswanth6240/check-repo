@@ -30,6 +30,7 @@ jobs:
           github-token: ${{ secrets.RELEASE_TOKEN }}
           version-file: './package.json,./package-lock.json'
           release-count: 0
+          version-file: "./GitVersion.yaml"
 
       - name: Install GitVersion
         run: |

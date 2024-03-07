@@ -10,7 +10,6 @@ module.exports = {recommendedBumpOpts: {
             // a '!' but no 'BREAKING CHANGE' in body:
 
             console.log("what bump called "+ commit)
-  
             if (commit.notes.length > 0) {
               breakings += commit.notes.length
               level = 0

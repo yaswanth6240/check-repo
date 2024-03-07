@@ -1,3 +1,77 @@
+## [2.2.6](https://github.com/yaswanth6240/test-repo/compare/v2.2.5...v2.2.6) (2024-03-07)
+
+
+### Bug Fixes
+
+* release ([6ddda37](https://github.com/yaswanth6240/test-repo/commit/6ddda374c4d82bcfcbfb9b66bfa87960d2b98e82))
+* release ([13bbf4b](https://github.com/yaswanth6240/test-repo/commit/13bbf4b68121114d5732ab0ba833006cf40e0adb))
+
+
+
+## [2.2.5](https://github.com/yaswanth6240/test-repo/compare/v2.2.4...v2.2.5) (2024-03-07)
+
+
+### Bug Fixes
+
+* to release ([9b75582](https://github.com/yaswanth6240/test-repo/commit/9b755822c81abc735c05705b8f025ea5f78e887b))
+
+
+
+## [2.2.4](https://github.com/yaswanth6240/test-repo/compare/v2.2.3...v2.2.4) (2024-03-07)
+
+
+### Bug Fixes
+
+* version ([6ab4e97](https://github.com/yaswanth6240/test-repo/commit/6ab4e975772144b0c3c771dd71ff2952e78ccc8d))
+
+
+
+## [2.2.3](https://github.com/yaswanth6240/test-repo/compare/v2.2.2...v2.2.3) (2024-03-07)
+
+
+### Bug Fixes
+
+* no publish ([fe40869](https://github.com/yaswanth6240/test-repo/commit/fe4086971f3b07e3a70a10a482f356f9e24aa5a3))
+
+
+
+## [2.2.2](https://github.com/yaswanth6240/test-repo/compare/v2.2.1...v2.2.2) (2024-03-07)
+
+
+### Bug Fixes
+
+* release ([3103377](https://github.com/yaswanth6240/test-repo/commit/3103377b15ab6417dcc7b5f3855730de2d9befa8))
+
+
+
+## [2.2.1](https://github.com/yaswanth6240/test-repo/compare/v2.2.0...v2.2.1) (2024-03-07)
+
+
+### Bug Fixes
+
+* try release ([fca5f49](https://github.com/yaswanth6240/test-repo/commit/fca5f494407fb6852bd8bd7b2173388e369d89ab))
+
+
+
+# [2.2.0](https://github.com/yaswanth6240/test-repo/compare/v2.1.4...v2.2.0) (2024-03-07)
+
+
+### Bug Fixes
+
+* release ([cdad963](https://github.com/yaswanth6240/test-repo/commit/cdad963ecc1e64e43b5d9b2e62f83ba087d356dc))
+* release ([b48dcfa](https://github.com/yaswanth6240/test-repo/commit/b48dcfae118bbc69a747a1240b1d28e1f3a2d241))
+* release ([f2fed24](https://github.com/yaswanth6240/test-repo/commit/f2fed248a6627ba6beead14ff3d347b03285f109))
+* release ([afc46ea](https://github.com/yaswanth6240/test-repo/commit/afc46ea60b24ec78fab54dcd49897c10c1157fdb))
+* release ([feaf2fd](https://github.com/yaswanth6240/test-repo/commit/feaf2fddfe0b3cc6d3433df3001f1ce86e12eb03))
+
+
+### Features
+
+* release ([3670471](https://github.com/yaswanth6240/test-repo/commit/36704718e7db563713dd660758606ca03eafa8e7))
+* try to release ([5b23731](https://github.com/yaswanth6240/test-repo/commit/5b23731ec2bbf8094848e455fc969a2aabf4354e))
+
+
+
 ## [2.1.4](https://github.com/yaswanth6240/test-repo/compare/v2.1.3...v2.1.4) (2024-02-09)
 
 

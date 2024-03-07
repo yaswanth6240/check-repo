@@ -27,12 +27,13 @@ jobs:
         run: npm i
       - name: Conventional Changelog Action
         id: changelog
-        uses: TriPSs/conventional-changelog-action@v5
+        uses: TriPSs/conventional-changelog-action@v5.1.0
         with:
           github-token: ${{ secrets.RELEASE_TOKEN }}
           version-file: './package.json,./package-lock.json'
           release-count: 0
           bump-minor: true
+          preset: "conventionalcommits"
           config-file-path: .version-bump-rules.js
 
       - name: create release

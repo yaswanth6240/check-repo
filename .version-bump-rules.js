@@ -1,8 +1,6 @@
 
 const parserOpts = require('conventional-changelog-conventionalcommits/parserOpts')
 
-const conventionalChangelog = require('conventional-changelog-conventionalcommit/conventionalChangelog')
-
 var config = {
     'types': [
       { type: 'build', hidden: true },
@@ -23,7 +21,6 @@ var config = {
 
 module.exports =  {
         parserOpts: parserOpts(config),
-        conventionalChangelog: conventionalChangelog(config),
         recommendedBumpOpts: {
 
         whatBump (commits) {

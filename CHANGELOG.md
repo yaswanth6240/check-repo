@@ -1,5 +1,13 @@
+## <small>2.3.6 (2024-03-07)</small>
+
+* fix: try ([67c00be](https://github.com/yaswanth6240/test-repo/commit/67c00be))
+* fix: try ([4a737d9](https://github.com/yaswanth6240/test-repo/commit/4a737d9))
+
+
+
 ## <small>2.3.1 (2024-03-07)</small>
 
+* chore(release): v2.3.1 [skip ci] ([ed47502](https://github.com/yaswanth6240/test-repo/commit/ed47502))
 * fix: addedm npm i ([27a3810](https://github.com/yaswanth6240/test-repo/commit/27a3810))
 * fix: release ([f47a96f](https://github.com/yaswanth6240/test-repo/commit/f47a96f))
 * fix: try ([63f426d](https://github.com/yaswanth6240/test-repo/commit/63f426d))

@@ -1,727 +1,755 @@
-## [2.4.4](https://github.com/yaswanth6240/test-repo/compare/v2.4.3...v2.4.4) (2024-03-07)
+## <small>2.4.5 (2024-03-07)</small>
 
+* fix: try ([df2421f](https://github.com/yaswanth6240/test-repo/commit/df2421f))
+* fix: try ([df5d7f8](https://github.com/yaswanth6240/test-repo/commit/df5d7f8))
+* fix: try ([2ddd996](https://github.com/yaswanth6240/test-repo/commit/2ddd996))
+* fix: try ([e16168f](https://github.com/yaswanth6240/test-repo/commit/e16168f))
+* fix: try ([55168bc](https://github.com/yaswanth6240/test-repo/commit/55168bc))
 
-### Bug Fixes
 
-* try ([d94cd1e](https://github.com/yaswanth6240/test-repo/commit/d94cd1e4a9dba99aca95b0eaf87437c319d5fdf2))
-* try ([a50ba76](https://github.com/yaswanth6240/test-repo/commit/a50ba76a06b7ef4817d0ca7d92e53c2c78244502))
 
-## [2.4.3](https://github.com/yaswanth6240/test-repo/compare/v2.4.2...v2.4.3) (2024-03-07)
+## <small>2.4.4 (2024-03-07)</small>
 
+* chore(release): v2.4.4 [skip ci] ([af51351](https://github.com/yaswanth6240/test-repo/commit/af51351))
+* fix: try ([d94cd1e](https://github.com/yaswanth6240/test-repo/commit/d94cd1e))
+* fix: try ([a50ba76](https://github.com/yaswanth6240/test-repo/commit/a50ba76))
 
-### Bug Fixes
 
-* try ([398ba0e](https://github.com/yaswanth6240/test-repo/commit/398ba0e1c45e5912b4e853f70102b67bcb728616))
 
-## [2.4.2](https://github.com/yaswanth6240/test-repo/compare/vv2.4.2...v2.4.2) (2024-03-07)
+## <small>2.4.3 (2024-03-07)</small>
 
-## [v2.4.2](https://github.com/yaswanth6240/test-repo/compare/v2.4.1...vv2.4.2) (2024-03-07)
+* chore(release): v2.4.3 [skip ci] ([8d063a1](https://github.com/yaswanth6240/test-repo/commit/8d063a1))
+* fix: try ([398ba0e](https://github.com/yaswanth6240/test-repo/commit/398ba0e))
 
 
-### Bug Fixes
 
-* try ([e9921f7](https://github.com/yaswanth6240/test-repo/commit/e9921f70a119b7460e02eb3ad02af4e837036338))
+## <small>2.4.2 (2024-03-07)</small>
 
-## [2.4.1](https://github.com/yaswanth6240/test-repo/compare/v2.4.0...v2.4.1) (2024-03-07)
+* chore(release): v2.4.2 [skip ci] ([79f54a3](https://github.com/yaswanth6240/test-repo/commit/79f54a3))
 
 
-### Bug Fixes
 
-* try ([a604171](https://github.com/yaswanth6240/test-repo/commit/a604171297747133d6960617613e596e3f8a2c49))
+## <small>v2.4.2 (2024-03-07)</small>
 
-## [2.4.0](https://github.com/yaswanth6240/test-repo/compare/v2.3.7...v2.4.0) (2024-03-07)
+* fix: try ([e9921f7](https://github.com/yaswanth6240/test-repo/commit/e9921f7))
 
 
-### Features
 
-* try ([3c22a35](https://github.com/yaswanth6240/test-repo/commit/3c22a354162cc7e0cb9fef5d8b852a63701b64f0))
+## <small>2.4.1 (2024-03-07)</small>
 
-## [2.3.7](https://github.com/yaswanth6240/test-repo/compare/v2.3.6...v2.3.7) (2024-03-07)
+* chore(release): v2.4.1 [skip ci] ([f5555a6](https://github.com/yaswanth6240/test-repo/commit/f5555a6))
+* fix: try ([a604171](https://github.com/yaswanth6240/test-repo/commit/a604171))
 
 
-### Bug Fixes
 
-* try ([a1e4739](https://github.com/yaswanth6240/test-repo/commit/a1e47394b83112ab03f65429dc0af86263081c23))
+## 2.4.0 (2024-03-07)
 
-## [2.3.6](https://github.com/yaswanth6240/test-repo/compare/v2.3.1...v2.3.6) (2024-03-07)
+* chore(release): v2.4.0 [skip ci] ([f7d770c](https://github.com/yaswanth6240/test-repo/commit/f7d770c))
+* feat: try ([3c22a35](https://github.com/yaswanth6240/test-repo/commit/3c22a35))
 
 
-### Bug Fixes
 
-* try ([67c00be](https://github.com/yaswanth6240/test-repo/commit/67c00be543a42d7cd8f3fe39b4d42f43b843638c))
-* try ([4a737d9](https://github.com/yaswanth6240/test-repo/commit/4a737d941674384df558edd3f60386cdb4151ba4))
+## <small>2.3.7 (2024-03-07)</small>
 
-## [2.3.1](https://github.com/yaswanth6240/test-repo/compare/v2.2.21...v2.3.1) (2024-03-07)
+* chore(release): v2.3.7 [skip ci] ([cb45111](https://github.com/yaswanth6240/test-repo/commit/cb45111))
+* fix: try ([a1e4739](https://github.com/yaswanth6240/test-repo/commit/a1e4739))
 
 
-### Bug Fixes
 
-* addedm npm i ([27a3810](https://github.com/yaswanth6240/test-repo/commit/27a38101f94a60b9411e6dd79c350d1ba5223492))
-* release ([f47a96f](https://github.com/yaswanth6240/test-repo/commit/f47a96fcdd8d44441e1c6968584e498a74377693))
-* try ([63f426d](https://github.com/yaswanth6240/test-repo/commit/63f426d0c8791e195c4ff54b2844c5ec07aef10c))
-* try ([83238a0](https://github.com/yaswanth6240/test-repo/commit/83238a07ae47927804cd70aa6c554589b9bad1a7))
-* try ([f2ff03a](https://github.com/yaswanth6240/test-repo/commit/f2ff03a9633c8eceb61e8d1e5ae6fff69cad6e3a))
-* trying to release ([6fa9570](https://github.com/yaswanth6240/test-repo/commit/6fa9570268a308181a98c06d13416e4e870e61e8))
-* tryto ([6646d44](https://github.com/yaswanth6240/test-repo/commit/6646d4427ea38504c596347433a2cfa7b3b8b048))
+## <small>2.3.6 (2024-03-07)</small>
 
-## [2.2.21](https://github.com/yaswanth6240/test-repo/compare/v0.1.0...v2.2.21) (2024-03-07)
+* chore(release): v2.3.6 [skip ci] ([cfde25a](https://github.com/yaswanth6240/test-repo/commit/cfde25a))
+* fix: try ([67c00be](https://github.com/yaswanth6240/test-repo/commit/67c00be))
+* fix: try ([4a737d9](https://github.com/yaswanth6240/test-repo/commit/4a737d9))
 
 
-### Bug Fixes
 
-* try release ([c0376aa](https://github.com/yaswanth6240/test-repo/commit/c0376aa8da4fac41ce6b7e76c0c575ffeef73919))
-* trying to release ([985be9d](https://github.com/yaswanth6240/test-repo/commit/985be9da4be8eac5ce5bbfda90ad851a3aa2c7cc))
-* version bump ([d5c523e](https://github.com/yaswanth6240/test-repo/commit/d5c523ee277bce30c47110e7e8568569a460fad4))
-* whatbump ([419a174](https://github.com/yaswanth6240/test-repo/commit/419a174c40a88e5866aa7cfa6e684e66f80de966))
+## <small>2.3.1 (2024-03-07)</small>
 
-## [0.1.0](https://github.com/yaswanth6240/test-repo/compare/v2.2.10...v0.1.0) (2024-03-07)
+* chore(release): v2.3.1 [skip ci] ([ed47502](https://github.com/yaswanth6240/test-repo/commit/ed47502))
+* fix: addedm npm i ([27a3810](https://github.com/yaswanth6240/test-repo/commit/27a3810))
+* fix: release ([f47a96f](https://github.com/yaswanth6240/test-repo/commit/f47a96f))
+* fix: try ([63f426d](https://github.com/yaswanth6240/test-repo/commit/63f426d))
+* fix: try ([83238a0](https://github.com/yaswanth6240/test-repo/commit/83238a0))
+* fix: try ([f2ff03a](https://github.com/yaswanth6240/test-repo/commit/f2ff03a))
+* fix: trying to release ([6fa9570](https://github.com/yaswanth6240/test-repo/commit/6fa9570))
+* fix: tryto ([6646d44](https://github.com/yaswanth6240/test-repo/commit/6646d44))
+* fix: ([4590348](https://github.com/yaswanth6240/test-repo/commit/4590348))
+* fix: ([7dd79aa](https://github.com/yaswanth6240/test-repo/commit/7dd79aa))
 
 
-### Bug Fixes
 
-* try ([e5cf403](https://github.com/yaswanth6240/test-repo/commit/e5cf4039c7389cfebc236f514c20d96b44cbb0e2))
-* try ([de9109e](https://github.com/yaswanth6240/test-repo/commit/de9109eb2cb0860554db4e5a569e5353b0573f3a))
-* try ([4a011e1](https://github.com/yaswanth6240/test-repo/commit/4a011e1efc42c86dc6cb7b6bbec0cf590bbd9a47))
-* try release ([9f04283](https://github.com/yaswanth6240/test-repo/commit/9f042838ba040741a61b0d373039ff52afbf67af))
-* try release ([1852c68](https://github.com/yaswanth6240/test-repo/commit/1852c683bc64bb6885ad328c4b5764fe6838e91d))
+## <small>2.2.21 (2024-03-07)</small>
 
-## [2.2.10](https://github.com/yaswanth6240/test-repo/compare/v2.2.9...v2.2.10) (2024-03-07)
+* chore(release): v2.2.21 [skip ci] ([5be03b4](https://github.com/yaswanth6240/test-repo/commit/5be03b4))
+* fix: try release ([c0376aa](https://github.com/yaswanth6240/test-repo/commit/c0376aa))
+* fix: trying to release ([985be9d](https://github.com/yaswanth6240/test-repo/commit/985be9d))
+* fix: version bump ([d5c523e](https://github.com/yaswanth6240/test-repo/commit/d5c523e))
+* fix: whatbump ([419a174](https://github.com/yaswanth6240/test-repo/commit/419a174))
 
 
-### Bug Fixes
 
-* try ([c943d15](https://github.com/yaswanth6240/test-repo/commit/c943d158d0c7d2d97e9c0a49e5d00eaf9d73575a))
+## 0.1.0 (2024-03-07)
 
-## [2.2.9](https://github.com/yaswanth6240/test-repo/compare/v2.2.8...v2.2.9) (2024-03-07)
+* chore(release): v0.1.0 [skip ci] ([020e55d](https://github.com/yaswanth6240/test-repo/commit/020e55d))
+* chore(release): vnull [skip ci] ([a4730dd](https://github.com/yaswanth6240/test-repo/commit/a4730dd))
+* fix: try ([e5cf403](https://github.com/yaswanth6240/test-repo/commit/e5cf403))
+* fix: try ([de9109e](https://github.com/yaswanth6240/test-repo/commit/de9109e))
+* fix: try ([4a011e1](https://github.com/yaswanth6240/test-repo/commit/4a011e1))
+* fix: try release ([9f04283](https://github.com/yaswanth6240/test-repo/commit/9f04283))
+* fix: try release ([1852c68](https://github.com/yaswanth6240/test-repo/commit/1852c68))
 
 
-### Bug Fixes
 
-* release ([84eba78](https://github.com/yaswanth6240/test-repo/commit/84eba780f6e7503c1bf875ad720e45450872bdfa))
+## <small>2.2.10 (2024-03-07)</small>
 
-## [2.2.8](https://github.com/yaswanth6240/test-repo/compare/v2.2.7...v2.2.8) (2024-03-07)
+* chore(release): v2.2.10 [skip ci] ([9efd5de](https://github.com/yaswanth6240/test-repo/commit/9efd5de))
+* fix: try ([c943d15](https://github.com/yaswanth6240/test-repo/commit/c943d15))
 
 
-### Bug Fixes
 
-* release ([16bb907](https://github.com/yaswanth6240/test-repo/commit/16bb90725eef2020cfeb4b2238b2ca63350b2db0))
+## <small>2.2.9 (2024-03-07)</small>
 
-## [2.2.7](https://github.com/yaswanth6240/test-repo/compare/v2.2.6...v2.2.7) (2024-03-07)
+* chore(release): v2.2.9 [skip ci] ([69a14c7](https://github.com/yaswanth6240/test-repo/commit/69a14c7))
+* fix: release ([84eba78](https://github.com/yaswanth6240/test-repo/commit/84eba78))
+* minor: release ([e0ca189](https://github.com/yaswanth6240/test-repo/commit/e0ca189))
+* minor: release ([d9419fa](https://github.com/yaswanth6240/test-repo/commit/d9419fa))
 
 
-### Bug Fixes
 
-* release ([4b86681](https://github.com/yaswanth6240/test-repo/commit/4b866817812b665c753e7f0dc3e97fa43ac345d6))
+## <small>2.2.8 (2024-03-07)</small>
 
-## [2.2.6](https://github.com/yaswanth6240/test-repo/compare/v2.2.5...v2.2.6) (2024-03-07)
+* chore(release): v2.2.8 [skip ci] ([a484952](https://github.com/yaswanth6240/test-repo/commit/a484952))
+* fix: release ([16bb907](https://github.com/yaswanth6240/test-repo/commit/16bb907))
 
 
-### Bug Fixes
 
-* release ([6ddda37](https://github.com/yaswanth6240/test-repo/commit/6ddda374c4d82bcfcbfb9b66bfa87960d2b98e82))
-* release ([13bbf4b](https://github.com/yaswanth6240/test-repo/commit/13bbf4b68121114d5732ab0ba833006cf40e0adb))
+## <small>2.2.7 (2024-03-07)</small>
 
-## [2.2.5](https://github.com/yaswanth6240/test-repo/compare/v2.2.4...v2.2.5) (2024-03-07)
+* chore(release): v2.2.7 [skip ci] ([63dc8b8](https://github.com/yaswanth6240/test-repo/commit/63dc8b8))
+* fix: release ([4b86681](https://github.com/yaswanth6240/test-repo/commit/4b86681))
 
 
-### Bug Fixes
 
-* to release ([9b75582](https://github.com/yaswanth6240/test-repo/commit/9b755822c81abc735c05705b8f025ea5f78e887b))
+## <small>2.2.6 (2024-03-07)</small>
 
-## [2.2.4](https://github.com/yaswanth6240/test-repo/compare/v2.2.3...v2.2.4) (2024-03-07)
+* chore(release): v2.2.6 [skip ci] ([0fe0b2b](https://github.com/yaswanth6240/test-repo/commit/0fe0b2b))
+* fix: release ([6ddda37](https://github.com/yaswanth6240/test-repo/commit/6ddda37))
+* fix: release ([13bbf4b](https://github.com/yaswanth6240/test-repo/commit/13bbf4b))
 
 
-### Bug Fixes
 
-* version ([6ab4e97](https://github.com/yaswanth6240/test-repo/commit/6ab4e975772144b0c3c771dd71ff2952e78ccc8d))
+## <small>2.2.5 (2024-03-07)</small>
 
-## [2.2.3](https://github.com/yaswanth6240/test-repo/compare/v2.2.2...v2.2.3) (2024-03-07)
+* fix: to release ([9b75582](https://github.com/yaswanth6240/test-repo/commit/9b75582))
 
 
-### Bug Fixes
 
-* no publish ([fe40869](https://github.com/yaswanth6240/test-repo/commit/fe4086971f3b07e3a70a10a482f356f9e24aa5a3))
+## <small>2.2.4 (2024-03-07)</small>
 
-## [2.2.2](https://github.com/yaswanth6240/test-repo/compare/v2.2.1...v2.2.2) (2024-03-07)
+* fix: version ([6ab4e97](https://github.com/yaswanth6240/test-repo/commit/6ab4e97))
 
 
-### Bug Fixes
 
-* release ([3103377](https://github.com/yaswanth6240/test-repo/commit/3103377b15ab6417dcc7b5f3855730de2d9befa8))
+## <small>2.2.3 (2024-03-07)</small>
 
-## [2.2.1](https://github.com/yaswanth6240/test-repo/compare/v2.2.0...v2.2.1) (2024-03-07)
+* fix: no publish ([fe40869](https://github.com/yaswanth6240/test-repo/commit/fe40869))
 
 
-### Bug Fixes
 
-* try release ([fca5f49](https://github.com/yaswanth6240/test-repo/commit/fca5f494407fb6852bd8bd7b2173388e369d89ab))
+## <small>2.2.2 (2024-03-07)</small>
 
-## [2.2.0](https://github.com/yaswanth6240/test-repo/compare/v2.1.4...v2.2.0) (2024-03-07)
+* fix: release ([3103377](https://github.com/yaswanth6240/test-repo/commit/3103377))
 
 
-### Features
 
-* release ([3670471](https://github.com/yaswanth6240/test-repo/commit/36704718e7db563713dd660758606ca03eafa8e7))
-* try to release ([5b23731](https://github.com/yaswanth6240/test-repo/commit/5b23731ec2bbf8094848e455fc969a2aabf4354e))
+## <small>2.2.1 (2024-03-07)</small>
 
+* fix: try release ([fca5f49](https://github.com/yaswanth6240/test-repo/commit/fca5f49))
 
-### Bug Fixes
 
-* release ([cdad963](https://github.com/yaswanth6240/test-repo/commit/cdad963ecc1e64e43b5d9b2e62f83ba087d356dc))
-* release ([b48dcfa](https://github.com/yaswanth6240/test-repo/commit/b48dcfae118bbc69a747a1240b1d28e1f3a2d241))
-* release ([f2fed24](https://github.com/yaswanth6240/test-repo/commit/f2fed248a6627ba6beead14ff3d347b03285f109))
-* release ([afc46ea](https://github.com/yaswanth6240/test-repo/commit/afc46ea60b24ec78fab54dcd49897c10c1157fdb))
-* release ([feaf2fd](https://github.com/yaswanth6240/test-repo/commit/feaf2fddfe0b3cc6d3433df3001f1ce86e12eb03))
 
-## [2.1.4](https://github.com/yaswanth6240/test-repo/compare/v2.1.3...v2.1.4) (2024-02-09)
+## 2.2.0 (2024-03-07)
 
+* feat: release ([3670471](https://github.com/yaswanth6240/test-repo/commit/3670471))
+* feat: try to release ([5b23731](https://github.com/yaswanth6240/test-repo/commit/5b23731))
+* fix: release ([cdad963](https://github.com/yaswanth6240/test-repo/commit/cdad963))
+* fix: release ([b48dcfa](https://github.com/yaswanth6240/test-repo/commit/b48dcfa))
+* fix: release ([f2fed24](https://github.com/yaswanth6240/test-repo/commit/f2fed24))
+* fix: release ([afc46ea](https://github.com/yaswanth6240/test-repo/commit/afc46ea))
+* fix: release ([feaf2fd](https://github.com/yaswanth6240/test-repo/commit/feaf2fd))
+* try fix ([d0419a9](https://github.com/yaswanth6240/test-repo/commit/d0419a9))
+* try fix ([3fc5e47](https://github.com/yaswanth6240/test-repo/commit/3fc5e47))
 
-### Bug Fixes
 
-* commit to release/publish ([7c2c5c9](https://github.com/yaswanth6240/test-repo/commit/7c2c5c96c28812fffe97a4e42317a489a9a23487))
 
-## [2.1.3](https://github.com/yaswanth6240/test-repo/compare/v2.1.2...v2.1.3) (2024-02-09)
+## <small>2.1.4 (2024-02-09)</small>
 
+* chore(release): v2.1.4 ([384e255](https://github.com/yaswanth6240/test-repo/commit/384e255))
+* fix: commit to release/publish ([7c2c5c9](https://github.com/yaswanth6240/test-repo/commit/7c2c5c9))
+* Check (#4) ([688aded](https://github.com/yaswanth6240/test-repo/commit/688aded)), closes [#4](https://github.com/yaswanth6240/test-repo/issues/4)
 
-### Bug Fixes
 
-* commit ([f75a350](https://github.com/yaswanth6240/test-repo/commit/f75a350630189f96f89a027132c04051a30c59a8))
 
-## [2.1.2](https://github.com/yaswanth6240/test-repo/compare/v2.1.1...v2.1.2) (2024-02-09)
+## <small>2.1.3 (2024-02-09)</small>
 
+* chore(release): v2.1.3 ([84d846c](https://github.com/yaswanth6240/test-repo/commit/84d846c))
+* fix: commit ([f75a350](https://github.com/yaswanth6240/test-repo/commit/f75a350))
 
-### Bug Fixes
 
-* commit ([d89e030](https://github.com/yaswanth6240/test-repo/commit/d89e0304d661780cc9ead82023f65d09a2326718))
 
-## [2.1.1](https://github.com/yaswanth6240/test-repo/compare/v2.1.0...v2.1.1) (2024-02-09)
+## <small>2.1.2 (2024-02-09)</small>
 
+* chore(release): v2.1.2 ([ea00f1a](https://github.com/yaswanth6240/test-repo/commit/ea00f1a))
+* fix: commit ([d89e030](https://github.com/yaswanth6240/test-repo/commit/d89e030))
 
-### Bug Fixes
 
-* commit ([8da317f](https://github.com/yaswanth6240/test-repo/commit/8da317ffca298674cc4098b6bb96d82ead184075))
 
-## [2.1.0](https://github.com/yaswanth6240/test-repo/compare/v2.0.54...v2.1.0) (2024-02-02)
+## <small>2.1.1 (2024-02-09)</small>
 
+* chore(release): v2.1.0 ([f81bf64](https://github.com/yaswanth6240/test-repo/commit/f81bf64))
+* chore(release): v2.1.1 ([026f8ae](https://github.com/yaswanth6240/test-repo/commit/026f8ae))
+* fix: commit ([8da317f](https://github.com/yaswanth6240/test-repo/commit/8da317f))
 
-### Features
 
-* commit ([a9074ff](https://github.com/yaswanth6240/test-repo/commit/a9074ff8cc8809aa0daacddb6c36901dfdd697ea))
 
-## [2.0.54](https://github.com/yaswanth6240/test-repo/compare/v2.0.53...v2.0.54) (2024-02-02)
+## 2.1.0 (2024-02-02)
 
+* chore(release): v2.1.0 ([bc686a8](https://github.com/yaswanth6240/test-repo/commit/bc686a8))
+* feat: commit ([a9074ff](https://github.com/yaswanth6240/test-repo/commit/a9074ff))
 
-### Bug Fixes
 
-* commit ([c364935](https://github.com/yaswanth6240/test-repo/commit/c364935373668d8d5c2aaeba16856d8afddb48dc))
 
-## [2.0.53](https://github.com/yaswanth6240/test-repo/compare/v2.0.52...v2.0.53) (2024-02-02)
+## <small>2.0.54 (2024-02-02)</small>
 
+* chore(release): v2.0.54 ([b538b2f](https://github.com/yaswanth6240/test-repo/commit/b538b2f))
+* fix: commit ([c364935](https://github.com/yaswanth6240/test-repo/commit/c364935))
 
-### Bug Fixes
 
-* commit ([d481f22](https://github.com/yaswanth6240/test-repo/commit/d481f22923e0700b8cb47cd3d9cc08e1712197dc))
 
-## [2.0.52](https://github.com/yaswanth6240/test-repo/compare/v2.0.51...v2.0.52) (2024-02-02)
+## <small>2.0.53 (2024-02-02)</small>
 
+* chore(release): v2.0.53 ([a700f6c](https://github.com/yaswanth6240/test-repo/commit/a700f6c))
+* fix: commit ([d481f22](https://github.com/yaswanth6240/test-repo/commit/d481f22))
 
-### Bug Fixes
 
-* commit ([d3c7efb](https://github.com/yaswanth6240/test-repo/commit/d3c7efb16a6d2bbba5120baeb0274617a18335a5))
 
-## [2.0.51](https://github.com/yaswanth6240/test-repo/compare/v2.0.50...v2.0.51) (2024-02-02)
+## <small>2.0.52 (2024-02-02)</small>
 
+* chore(release): v2.0.52 ([7dcd4cc](https://github.com/yaswanth6240/test-repo/commit/7dcd4cc))
+* fix: commit ([d3c7efb](https://github.com/yaswanth6240/test-repo/commit/d3c7efb))
 
-### Bug Fixes
 
-* commit ([d19f44d](https://github.com/yaswanth6240/test-repo/commit/d19f44d5507104020009eec52f09c0b8f8cb6f95))
 
-## [2.0.50](https://github.com/yaswanth6240/test-repo/compare/v2.0.49...v2.0.50) (2024-02-02)
+## <small>2.0.51 (2024-02-02)</small>
 
+* chore(release): v2.0.51 ([0a9def6](https://github.com/yaswanth6240/test-repo/commit/0a9def6))
+* fix: commit ([d19f44d](https://github.com/yaswanth6240/test-repo/commit/d19f44d))
 
-### Bug Fixes
 
-* commit ([0bc4fe6](https://github.com/yaswanth6240/test-repo/commit/0bc4fe6a1708696708de79778a72b5d26a61570b))
 
-## [2.0.49](https://github.com/yaswanth6240/test-repo/compare/v2.0.48...v2.0.49) (2024-02-02)
+## <small>2.0.50 (2024-02-02)</small>
 
+* chore(release): v2.0.50 ([716a8b7](https://github.com/yaswanth6240/test-repo/commit/716a8b7))
+* fix: commit ([0bc4fe6](https://github.com/yaswanth6240/test-repo/commit/0bc4fe6))
 
-### Bug Fixes
 
-* commit ([e71a643](https://github.com/yaswanth6240/test-repo/commit/e71a643e2679118a388171dacd06ae69153224c5))
 
-## [2.0.48](https://github.com/yaswanth6240/test-repo/compare/v2.0.47...v2.0.48) (2024-02-02)
+## <small>2.0.49 (2024-02-02)</small>
 
+* chore(release): v2.0.49 ([5825319](https://github.com/yaswanth6240/test-repo/commit/5825319))
+* fix: commit ([e71a643](https://github.com/yaswanth6240/test-repo/commit/e71a643))
 
-### Bug Fixes
 
-* minor release ([db9b2cf](https://github.com/yaswanth6240/test-repo/commit/db9b2cf938e554d56b828643cdfda922d1f39b0a))
 
-## [2.0.47](https://github.com/yaswanth6240/test-repo/compare/v2.0.46...v2.0.47) (2024-02-02)
+## <small>2.0.48 (2024-02-02)</small>
 
+* chore(release): v2.0.48 ([a3ed889](https://github.com/yaswanth6240/test-repo/commit/a3ed889))
+* fix: minor release ([db9b2cf](https://github.com/yaswanth6240/test-repo/commit/db9b2cf))
 
-### Bug Fixes
 
-* fixed packe lock ([a40aa7f](https://github.com/yaswanth6240/test-repo/commit/a40aa7f659e2cfa1731d3e8cab51bbd5ce93ce60))
 
-## [2.0.46](https://github.com/yaswanth6240/test-repo/compare/v2.0.45...v2.0.46) (2024-02-02)
+## <small>2.0.47 (2024-02-02)</small>
 
+* chore(release): v2.0.47 ([bd773b4](https://github.com/yaswanth6240/test-repo/commit/bd773b4))
+* fix: fixed packe lock ([a40aa7f](https://github.com/yaswanth6240/test-repo/commit/a40aa7f))
 
-### Bug Fixes
 
-* trying to do release ([1f747ab](https://github.com/yaswanth6240/test-repo/commit/1f747ab92e49d03cc1f24a353008f93464c3191d))
 
-## [2.0.45](https://github.com/yaswanth6240/test-repo/compare/v2.0.44...v2.0.45) (2024-02-02)
+## <small>2.0.46 (2024-02-02)</small>
 
+* chore(release): v2.0.46 ([0974f6a](https://github.com/yaswanth6240/test-repo/commit/0974f6a))
+* fix: trying to do release ([1f747ab](https://github.com/yaswanth6240/test-repo/commit/1f747ab))
 
-### Bug Fixes
 
-* trying to do release ([d8fae55](https://github.com/yaswanth6240/test-repo/commit/d8fae55d6c29ee3b6bd6aded0655709b2a68e5ce))
 
-## [2.0.44](https://github.com/yaswanth6240/test-repo/compare/v2.0.43...v2.0.44) (2024-02-02)
+## <small>2.0.45 (2024-02-02)</small>
 
+* chore(release): v2.0.45 ([60b1668](https://github.com/yaswanth6240/test-repo/commit/60b1668))
+* fix: trying to do release ([d8fae55](https://github.com/yaswanth6240/test-repo/commit/d8fae55))
 
-### Bug Fixes
 
-* trying to do release ([a5a7712](https://github.com/yaswanth6240/test-repo/commit/a5a77125731d72a1678011e34568b4724af476e6))
 
-## [2.0.43](https://github.com/yaswanth6240/test-repo/compare/v2.0.42...v2.0.43) (2024-02-02)
+## <small>2.0.44 (2024-02-02)</small>
 
+* chore(release): v2.0.44 ([e40534a](https://github.com/yaswanth6240/test-repo/commit/e40534a))
+* fix: trying to do release ([a5a7712](https://github.com/yaswanth6240/test-repo/commit/a5a7712))
 
-### Bug Fixes
 
-* trying to do release ([c10ae1f](https://github.com/yaswanth6240/test-repo/commit/c10ae1fd986afc1e23c785e6bc598e2385f9fea7))
 
-## [2.0.42](https://github.com/yaswanth6240/test-repo/compare/v2.0.41...v2.0.42) (2024-02-02)
+## <small>2.0.43 (2024-02-02)</small>
 
+* chore(release): v2.0.43 ([4ae78eb](https://github.com/yaswanth6240/test-repo/commit/4ae78eb))
+* fix: trying to do release ([c10ae1f](https://github.com/yaswanth6240/test-repo/commit/c10ae1f))
 
-### Bug Fixes
 
-* trying to do release ([d564eb6](https://github.com/yaswanth6240/test-repo/commit/d564eb6ba14adcf8b5f5dc2dbc4c1153cdd226f1))
 
-## [2.0.41](https://github.com/yaswanth6240/test-repo/compare/v2.0.40...v2.0.41) (2024-02-02)
+## <small>2.0.42 (2024-02-02)</small>
 
+* chore(release): v2.0.42 ([88900e6](https://github.com/yaswanth6240/test-repo/commit/88900e6))
+* fix: trying to do release ([d564eb6](https://github.com/yaswanth6240/test-repo/commit/d564eb6))
 
-### Bug Fixes
 
-* trying to do release ([e2d0a35](https://github.com/yaswanth6240/test-repo/commit/e2d0a35acc81a23a00787acc70de1f1631b37cfd))
 
-## [2.0.40](https://github.com/yaswanth6240/test-repo/compare/v2.0.39...v2.0.40) (2024-02-02)
+## <small>2.0.41 (2024-02-02)</small>
 
+* chore(release): v2.0.41 ([56b3949](https://github.com/yaswanth6240/test-repo/commit/56b3949))
+* fix: trying to do release ([e2d0a35](https://github.com/yaswanth6240/test-repo/commit/e2d0a35))
 
-### Bug Fixes
 
-* trying to do release ([5d14563](https://github.com/yaswanth6240/test-repo/commit/5d145631bda72bd13c29f3cf72e2383bad4ab720))
 
-## [2.0.39](https://github.com/yaswanth6240/test-repo/compare/v2.0.38...v2.0.39) (2024-02-02)
+## <small>2.0.40 (2024-02-02)</small>
 
+* chore(release): v2.0.40 ([a742ed3](https://github.com/yaswanth6240/test-repo/commit/a742ed3))
+* fix: trying to do release ([5d14563](https://github.com/yaswanth6240/test-repo/commit/5d14563))
+* test: backfilled changelog ([30d1cb3](https://github.com/yaswanth6240/test-repo/commit/30d1cb3))
 
-### Bug Fixes
 
-* release bump ([5fab3a5](https://github.com/yaswanth6240/test-repo/commit/5fab3a5003c173d70406ffe854fdea495c281b13))
 
-## [2.0.38](https://github.com/yaswanth6240/test-repo/compare/v2.0.37...v2.0.38) (2024-02-02)
+## <small>2.0.39 (2024-02-02)</small>
 
+* chore(release): v2.0.39 ([b657240](https://github.com/yaswanth6240/test-repo/commit/b657240))
+* fix: release bump ([5fab3a5](https://github.com/yaswanth6240/test-repo/commit/5fab3a5))
 
-### Bug Fixes
 
-* release bump ([481714d](https://github.com/yaswanth6240/test-repo/commit/481714d1354cd3dee3cdc587c7f65f4b353a4c9c))
 
-## [2.0.37](https://github.com/yaswanth6240/test-repo/compare/v2.0.36...v2.0.37) (2024-02-02)
+## <small>2.0.38 (2024-02-02)</small>
 
+* chore(release): v2.0.38 ([fa81403](https://github.com/yaswanth6240/test-repo/commit/fa81403))
+* fix: release bump ([481714d](https://github.com/yaswanth6240/test-repo/commit/481714d))
 
-### Bug Fixes
 
-* release ([cec6973](https://github.com/yaswanth6240/test-repo/commit/cec6973ddfa4b2f7667e519a60f249061cb00df3))
 
-## [2.0.36](https://github.com/yaswanth6240/test-repo/compare/v2.0.35...v2.0.36) (2024-02-02)
+## <small>2.0.37 (2024-02-02)</small>
 
+* chore(release): v2.0.37 ([4b71f33](https://github.com/yaswanth6240/test-repo/commit/4b71f33))
+* fix: release ([cec6973](https://github.com/yaswanth6240/test-repo/commit/cec6973))
 
-### Bug Fixes
 
-* release ([db2b65d](https://github.com/yaswanth6240/test-repo/commit/db2b65d186af7e5c0ee68543ea3faf6fe05a0e3e))
 
-## [2.0.35](https://github.com/yaswanth6240/test-repo/compare/v2.0.34...v2.0.35) (2024-02-02)
+## <small>2.0.36 (2024-02-02)</small>
 
+* chore(release): v2.0.36 ([ee30167](https://github.com/yaswanth6240/test-repo/commit/ee30167))
+* fix: release ([db2b65d](https://github.com/yaswanth6240/test-repo/commit/db2b65d))
 
-### Bug Fixes
 
-* release ([7665ed0](https://github.com/yaswanth6240/test-repo/commit/7665ed078f4e1510b320fe1c82536c08c2a72991))
 
-## [2.0.34](https://github.com/yaswanth6240/test-repo/compare/v2.0.33...v2.0.34) (2024-02-02)
+## <small>2.0.35 (2024-02-02)</small>
 
+* chore(release): v2.0.35 ([0157f2e](https://github.com/yaswanth6240/test-repo/commit/0157f2e))
+* fix: release ([7665ed0](https://github.com/yaswanth6240/test-repo/commit/7665ed0))
 
-### Bug Fixes
 
-* release ([e9e5bf0](https://github.com/yaswanth6240/test-repo/commit/e9e5bf06b59b343a3de225a7b8131beee821e6cb))
-* release ([45b92c1](https://github.com/yaswanth6240/test-repo/commit/45b92c1194a1629999eb149e68b00085ac375dc0))
 
-## [2.0.33](https://github.com/yaswanth6240/test-repo/compare/v2.0.32...v2.0.33) (2024-02-02)
+## <small>2.0.34 (2024-02-02)</small>
 
+* chore(release): v2.0.34 ([af5c26e](https://github.com/yaswanth6240/test-repo/commit/af5c26e))
+* fix: release ([e9e5bf0](https://github.com/yaswanth6240/test-repo/commit/e9e5bf0))
+* fix: release ([45b92c1](https://github.com/yaswanth6240/test-repo/commit/45b92c1))
 
-### Bug Fixes
 
-* release ([e110212](https://github.com/yaswanth6240/test-repo/commit/e110212bf960ccabc0b9e50e9263d5e47aa975be))
 
-## [2.0.32](https://github.com/yaswanth6240/test-repo/compare/v2.0.31...v2.0.32) (2024-02-02)
+## <small>2.0.33 (2024-02-02)</small>
 
+* chore(release): v2.0.33 ([c99c8d7](https://github.com/yaswanth6240/test-repo/commit/c99c8d7))
+* fix: release ([e110212](https://github.com/yaswanth6240/test-repo/commit/e110212))
 
-### Bug Fixes
 
-* release ([1024b0d](https://github.com/yaswanth6240/test-repo/commit/1024b0d74a90234faa935977699c5fe776559cc8))
-* release ([ee87bb3](https://github.com/yaswanth6240/test-repo/commit/ee87bb3da09099cb5e0698230ba4c768f4d0f519))
 
-## [2.0.31](https://github.com/yaswanth6240/test-repo/compare/v2.0.30...v2.0.31) (2024-02-02)
+## <small>2.0.32 (2024-02-02)</small>
 
+* chore(release): v2.0.32 ([aca2f02](https://github.com/yaswanth6240/test-repo/commit/aca2f02))
+* fix: release ([1024b0d](https://github.com/yaswanth6240/test-repo/commit/1024b0d))
+* fix: release ([ee87bb3](https://github.com/yaswanth6240/test-repo/commit/ee87bb3))
 
-### Bug Fixes
 
-* release ([e603a62](https://github.com/yaswanth6240/test-repo/commit/e603a6239f67370bdc2465c95a48adbe7b8f423b))
 
-## [2.0.30](https://github.com/yaswanth6240/test-repo/compare/v2.0.29...v2.0.30) (2024-02-02)
+## <small>2.0.31 (2024-02-02)</small>
 
+* chore(release): v2.0.31 ([a3db4ab](https://github.com/yaswanth6240/test-repo/commit/a3db4ab))
+* fix: release ([e603a62](https://github.com/yaswanth6240/test-repo/commit/e603a62))
 
-### Bug Fixes
 
-* to release ([bc053b6](https://github.com/yaswanth6240/test-repo/commit/bc053b6e86beb94bcc5ba9edf01a154ffd02e098))
 
-## [2.0.29](https://github.com/yaswanth6240/test-repo/compare/v2.0.28...v2.0.29) (2024-02-02)
+## <small>2.0.30 (2024-02-02)</small>
 
+* chore(release): v2.0.30 ([9c23371](https://github.com/yaswanth6240/test-repo/commit/9c23371))
+* fix: to release ([bc053b6](https://github.com/yaswanth6240/test-repo/commit/bc053b6))
 
-### Bug Fixes
 
-* to release ([3ad0041](https://github.com/yaswanth6240/test-repo/commit/3ad0041ae526143eb60a2a0126dfde9d92cabdfb))
 
-## [2.0.28](https://github.com/yaswanth6240/test-repo/compare/v2.0.27...v2.0.28) (2024-02-02)
+## <small>2.0.29 (2024-02-02)</small>
 
+* chore(release): v2.0.29 ([604f6bd](https://github.com/yaswanth6240/test-repo/commit/604f6bd))
+* fix: to release ([3ad0041](https://github.com/yaswanth6240/test-repo/commit/3ad0041))
 
-### Bug Fixes
 
-* to release ([fc1468b](https://github.com/yaswanth6240/test-repo/commit/fc1468bad74d39c4382c7932f07d287aa76bb511))
 
-## [2.0.27](https://github.com/yaswanth6240/test-repo/compare/v2.0.26...v2.0.27) (2024-02-02)
+## <small>2.0.28 (2024-02-02)</small>
 
+* chore(release): v2.0.28 ([6b047e4](https://github.com/yaswanth6240/test-repo/commit/6b047e4))
+* fix: to release ([fc1468b](https://github.com/yaswanth6240/test-repo/commit/fc1468b))
 
-### Bug Fixes
 
-* release ([179221a](https://github.com/yaswanth6240/test-repo/commit/179221ac8b79b2dab74a2cc7771123c461e2ba65))
 
-## [2.0.26](https://github.com/yaswanth6240/test-repo/compare/v2.0.25...v2.0.26) (2024-02-02)
+## <small>2.0.27 (2024-02-02)</small>
 
+* chore(release): v2.0.27 ([9522095](https://github.com/yaswanth6240/test-repo/commit/9522095))
+* fix: release ([179221a](https://github.com/yaswanth6240/test-repo/commit/179221a))
 
-### Bug Fixes
 
-* release ([3438095](https://github.com/yaswanth6240/test-repo/commit/3438095baeca469046661b9d499d3ecaf9f41bd9))
 
-## [2.0.25](https://github.com/yaswanth6240/test-repo/compare/v2.0.24...v2.0.25) (2024-02-02)
+## <small>2.0.26 (2024-02-02)</small>
 
+* chore(release): v2.0.26 ([560df8e](https://github.com/yaswanth6240/test-repo/commit/560df8e))
+* fix: release ([3438095](https://github.com/yaswanth6240/test-repo/commit/3438095))
 
-### Bug Fixes
 
-* release ([b4802db](https://github.com/yaswanth6240/test-repo/commit/b4802db18369a5ddf37feee2286f17f57cb7193b))
 
-## [2.0.24](https://github.com/yaswanth6240/test-repo/compare/v2.0.23...v2.0.24) (2024-02-02)
+## <small>2.0.25 (2024-02-02)</small>
 
+* chore(release): v2.0.25 ([4bfeccf](https://github.com/yaswanth6240/test-repo/commit/4bfeccf))
+* fix: release ([b4802db](https://github.com/yaswanth6240/test-repo/commit/b4802db))
 
-### Bug Fixes
 
-* release ([2166c34](https://github.com/yaswanth6240/test-repo/commit/2166c34c701922299c6e78be55924f221ce52661))
 
-## [2.0.23](https://github.com/yaswanth6240/test-repo/compare/v2.0.22...v2.0.23) (2024-02-02)
+## <small>2.0.24 (2024-02-02)</small>
 
+* chore(release): v2.0.24 ([54d9559](https://github.com/yaswanth6240/test-repo/commit/54d9559))
+* fix: release ([2166c34](https://github.com/yaswanth6240/test-repo/commit/2166c34))
 
-### Bug Fixes
 
-* release ([24dd27e](https://github.com/yaswanth6240/test-repo/commit/24dd27efd503ad1e299c64588bf39be789c28d27))
 
-## [2.0.22](https://github.com/yaswanth6240/test-repo/compare/v2.0.21...v2.0.22) (2024-02-02)
+## <small>2.0.23 (2024-02-02)</small>
 
+* chore(release): v2.0.23 ([30823a8](https://github.com/yaswanth6240/test-repo/commit/30823a8))
+* fix: release ([24dd27e](https://github.com/yaswanth6240/test-repo/commit/24dd27e))
 
-### Bug Fixes
 
-* try release ([95880df](https://github.com/yaswanth6240/test-repo/commit/95880dfbd550144fb818139450f1f0902e92bd60))
 
-## [2.0.21](https://github.com/yaswanth6240/test-repo/compare/v2.0.20...v2.0.21) (2024-02-02)
+## <small>2.0.22 (2024-02-02)</small>
 
+* chore(release): v2.0.22 ([0e93919](https://github.com/yaswanth6240/test-repo/commit/0e93919))
+* fix: try release ([95880df](https://github.com/yaswanth6240/test-repo/commit/95880df))
 
-### Bug Fixes
 
-* try release ([7a59a6d](https://github.com/yaswanth6240/test-repo/commit/7a59a6db74114cee13345876dcb097e899ba41f7))
 
-## [2.0.20](https://github.com/yaswanth6240/test-repo/compare/v2.0.19...v2.0.20) (2024-02-02)
+## <small>2.0.21 (2024-02-02)</small>
 
+* chore(release): v2.0.21 ([796de2d](https://github.com/yaswanth6240/test-repo/commit/796de2d))
+* fix: try release ([7a59a6d](https://github.com/yaswanth6240/test-repo/commit/7a59a6d))
 
-### Bug Fixes
 
-* try release ([7ee59a5](https://github.com/yaswanth6240/test-repo/commit/7ee59a5909e86d1a087ab0657230ead65e3229dd))
 
-## [2.0.19](https://github.com/yaswanth6240/test-repo/compare/v2.0.18...v2.0.19) (2024-02-02)
+## <small>2.0.20 (2024-02-02)</small>
 
+* chore(release): v2.0.20 ([f011a91](https://github.com/yaswanth6240/test-repo/commit/f011a91))
+* fix: try release ([7ee59a5](https://github.com/yaswanth6240/test-repo/commit/7ee59a5))
 
-### Bug Fixes
 
-* try release ([3b39191](https://github.com/yaswanth6240/test-repo/commit/3b39191cbb4069b8c338fe940e0c8cd34953f7b8))
 
-## [2.0.18](https://github.com/yaswanth6240/test-repo/compare/v2.0.17...v2.0.18) (2024-02-02)
+## <small>2.0.19 (2024-02-02)</small>
 
+* chore(release): v2.0.19 ([1da133c](https://github.com/yaswanth6240/test-repo/commit/1da133c))
+* fix: try release ([3b39191](https://github.com/yaswanth6240/test-repo/commit/3b39191))
 
-### Bug Fixes
 
-* try release ([dc901a5](https://github.com/yaswanth6240/test-repo/commit/dc901a5d9d4185fbc58820d8c1c6e555e8d3c1ec))
 
-## [2.0.17](https://github.com/yaswanth6240/test-repo/compare/v2.0.16...v2.0.17) (2024-02-02)
+## <small>2.0.18 (2024-02-02)</small>
 
+* chore(release): v2.0.18 ([6d1e618](https://github.com/yaswanth6240/test-repo/commit/6d1e618))
+* fix: try release ([dc901a5](https://github.com/yaswanth6240/test-repo/commit/dc901a5))
 
-### Bug Fixes
 
-* try release ([adfaf6e](https://github.com/yaswanth6240/test-repo/commit/adfaf6e42f9d226935939412c805fe06008fb91d))
 
-## [2.0.16](https://github.com/yaswanth6240/test-repo/compare/v2.0.15...v2.0.16) (2024-02-02)
+## <small>2.0.17 (2024-02-02)</small>
 
+* chore(release): v2.0.17 ([0a071d0](https://github.com/yaswanth6240/test-repo/commit/0a071d0))
+* fix: try release ([adfaf6e](https://github.com/yaswanth6240/test-repo/commit/adfaf6e))
 
-### Bug Fixes
 
-* try release ([43a6e83](https://github.com/yaswanth6240/test-repo/commit/43a6e8328e2737dcf4a97672fe691ccd40c08e22))
 
-## [2.0.15](https://github.com/yaswanth6240/test-repo/compare/v2.0.14...v2.0.15) (2024-02-02)
+## <small>2.0.16 (2024-02-02)</small>
 
+* chore(release): v2.0.16 ([d4acc32](https://github.com/yaswanth6240/test-repo/commit/d4acc32))
+* fix: try release ([43a6e83](https://github.com/yaswanth6240/test-repo/commit/43a6e83))
 
-### Bug Fixes
 
-* try release ([415fa4a](https://github.com/yaswanth6240/test-repo/commit/415fa4a7e2908d8577143d559438a2ffb787883a))
 
-## [2.0.14](https://github.com/yaswanth6240/test-repo/compare/v2.0.13...v2.0.14) (2024-02-02)
+## <small>2.0.15 (2024-02-02)</small>
 
+* chore(release): v2.0.15 ([30fc9e4](https://github.com/yaswanth6240/test-repo/commit/30fc9e4))
+* fix: try release ([415fa4a](https://github.com/yaswanth6240/test-repo/commit/415fa4a))
 
-### Bug Fixes
 
-* try release ([5ba9b78](https://github.com/yaswanth6240/test-repo/commit/5ba9b78e3cc8658baa59d81549afced8dabdd60f))
 
-## [2.0.13](https://github.com/yaswanth6240/test-repo/compare/v2.0.12...v2.0.13) (2024-02-02)
+## <small>2.0.14 (2024-02-02)</small>
 
+* chore(release): v2.0.14 ([204b920](https://github.com/yaswanth6240/test-repo/commit/204b920))
+* fix: try release ([5ba9b78](https://github.com/yaswanth6240/test-repo/commit/5ba9b78))
 
-### Bug Fixes
 
-* try release ([ba4f408](https://github.com/yaswanth6240/test-repo/commit/ba4f408b3ddde2ce1a4dae1abc09819ee34f4266))
 
-## [2.0.12](https://github.com/yaswanth6240/test-repo/compare/v2.0.11...v2.0.12) (2024-02-02)
+## <small>2.0.13 (2024-02-02)</small>
 
+* chore(release): v2.0.13 ([674dff5](https://github.com/yaswanth6240/test-repo/commit/674dff5))
+* fix: try release ([ba4f408](https://github.com/yaswanth6240/test-repo/commit/ba4f408))
 
-### Bug Fixes
 
-* release1 ([b2f5105](https://github.com/yaswanth6240/test-repo/commit/b2f510579262bb29e2caa6c89e3f09d886384cf3))
 
-## [2.0.11](https://github.com/yaswanth6240/test-repo/compare/v2.0.10...v2.0.11) (2024-02-02)
+## <small>2.0.12 (2024-02-02)</small>
 
+* chore(release): v2.0.12 ([bbad561](https://github.com/yaswanth6240/test-repo/commit/bbad561))
+* fix: release1 ([b2f5105](https://github.com/yaswanth6240/test-repo/commit/b2f5105))
 
-### Bug Fixes
 
-* release ([8298718](https://github.com/yaswanth6240/test-repo/commit/82987182b5f02331eb38c1084b81bb8f1aa99e31))
 
-## [2.0.10](https://github.com/yaswanth6240/test-repo/compare/v2.0.9...v2.0.10) (2024-02-02)
+## <small>2.0.11 (2024-02-02)</small>
 
+* chore(release): v2.0.11 ([b16034d](https://github.com/yaswanth6240/test-repo/commit/b16034d))
+* fix: release ([8298718](https://github.com/yaswanth6240/test-repo/commit/8298718))
 
-### Bug Fixes
 
-* release ([ec8ce5c](https://github.com/yaswanth6240/test-repo/commit/ec8ce5ccbacdd80f07e83c432a824ec8dbdf4a50))
 
-## [2.0.9](https://github.com/yaswanth6240/test-repo/compare/v2.0.8...v2.0.9) (2024-02-02)
+## <small>2.0.10 (2024-02-02)</small>
 
+* chore(release): v2.0.10 ([74c3e91](https://github.com/yaswanth6240/test-repo/commit/74c3e91))
+* fix: release ([ec8ce5c](https://github.com/yaswanth6240/test-repo/commit/ec8ce5c))
 
-### Bug Fixes
 
-* release ([c2c98fe](https://github.com/yaswanth6240/test-repo/commit/c2c98fe934a06c7b4fd9774ba1c5bf4591c1d494))
 
-## [2.0.8](https://github.com/yaswanth6240/test-repo/compare/v2.0.7...v2.0.8) (2024-02-02)
+## <small>2.0.9 (2024-02-02)</small>
 
+* chore(release): v2.0.9 ([af6df56](https://github.com/yaswanth6240/test-repo/commit/af6df56))
+* fix: release ([c2c98fe](https://github.com/yaswanth6240/test-repo/commit/c2c98fe))
 
-### Bug Fixes
 
-* release ([8097655](https://github.com/yaswanth6240/test-repo/commit/8097655ece251f1363b24e4e1db02ac471a3c54f))
 
-## [2.0.7](https://github.com/yaswanth6240/test-repo/compare/v2.0.6...v2.0.7) (2024-02-02)
+## <small>2.0.8 (2024-02-02)</small>
 
+* chore(release): v2.0.8 ([661f981](https://github.com/yaswanth6240/test-repo/commit/661f981))
+* fix: release ([8097655](https://github.com/yaswanth6240/test-repo/commit/8097655))
 
-### Bug Fixes
 
-* try release ([fe12d72](https://github.com/yaswanth6240/test-repo/commit/fe12d72eca7acfb85e8dbbe47a221c4d4096cf74))
-* try release ([82d6559](https://github.com/yaswanth6240/test-repo/commit/82d6559ea269f0e7f383dcbe26af8b17badbefe8))
 
-## [2.0.6](https://github.com/yaswanth6240/test-repo/compare/v2.0.5...v2.0.6) (2024-02-02)
+## <small>2.0.7 (2024-02-02)</small>
 
+* chore(release): v2.0.7 ([a3011f5](https://github.com/yaswanth6240/test-repo/commit/a3011f5))
+* fix: try release ([fe12d72](https://github.com/yaswanth6240/test-repo/commit/fe12d72))
+* fix: try release ([82d6559](https://github.com/yaswanth6240/test-repo/commit/82d6559))
 
-### Bug Fixes
 
-* try release ([d71d6c9](https://github.com/yaswanth6240/test-repo/commit/d71d6c9261e16bd8c7f4a95df223291abc47e414))
 
-## [2.0.5](https://github.com/yaswanth6240/test-repo/compare/v2.0.4...v2.0.5) (2024-02-02)
+## <small>2.0.6 (2024-02-02)</small>
 
+* chore(release): v2.0.6 ([1f61a76](https://github.com/yaswanth6240/test-repo/commit/1f61a76))
+* fix: try release ([d71d6c9](https://github.com/yaswanth6240/test-repo/commit/d71d6c9))
 
-### Bug Fixes
 
-* setting release ([272f271](https://github.com/yaswanth6240/test-repo/commit/272f27106f14ead4b9e6151eea057364fef29823))
-* version ([55062ce](https://github.com/yaswanth6240/test-repo/commit/55062cea0f0f5c01209e59c757454caf4cd5f88d))
-* version ([f1e6f67](https://github.com/yaswanth6240/test-repo/commit/f1e6f679f88baf91fbacebab288695550edb2476))
-* version ([f340eff](https://github.com/yaswanth6240/test-repo/commit/f340effafcf6d7d02a55d158c98bac5c4a2347b8))
-* version ([0b563ec](https://github.com/yaswanth6240/test-repo/commit/0b563ecde76b284e9c56c9d57e2a16687091071b))
 
-## [2.0.4](https://github.com/yaswanth6240/test-repo/compare/v2.0.3...v2.0.4) (2024-01-24)
+## <small>2.0.5 (2024-02-02)</small>
 
+* chore(release): v2.0.5 ([a07f7a3](https://github.com/yaswanth6240/test-repo/commit/a07f7a3))
+* fix: setting release ([272f271](https://github.com/yaswanth6240/test-repo/commit/272f271))
+* fix: version ([55062ce](https://github.com/yaswanth6240/test-repo/commit/55062ce))
+* fix: version ([f1e6f67](https://github.com/yaswanth6240/test-repo/commit/f1e6f67))
+* fix: version ([f340eff](https://github.com/yaswanth6240/test-repo/commit/f340eff))
+* fix: version ([0b563ec](https://github.com/yaswanth6240/test-repo/commit/0b563ec))
 
-### Bug Fixes
 
-* check version ([0956462](https://github.com/yaswanth6240/test-repo/commit/0956462391ac9a2a0861921be5e7f292b773004e))
 
-## [2.0.3](https://github.com/yaswanth6240/test-repo/compare/v2.0.2...v2.0.3) (2024-01-24)
+## <small>2.0.4 (2024-01-24)</small>
 
+* chore(release): v2.0.4 ([e0b10ed](https://github.com/yaswanth6240/test-repo/commit/e0b10ed))
+* fix: check version ([0956462](https://github.com/yaswanth6240/test-repo/commit/0956462))
 
-### Bug Fixes
 
-* check gitversion ([e9ea18e](https://github.com/yaswanth6240/test-repo/commit/e9ea18e253bf18279a94b46421fcb2441ab15ad4))
-* check gitversion ([4eef53b](https://github.com/yaswanth6240/test-repo/commit/4eef53becd036ec72b329f0d8cea3951a6d14b52))
-* Check gitversion ([d0de834](https://github.com/yaswanth6240/test-repo/commit/d0de8347c16f436de2b3ea2070802d7c1ea8cd29))
 
-## [2.0.2](https://github.com/yaswanth6240/test-repo/compare/v2.0.1...v2.0.2) (2024-01-24)
+## <small>2.0.3 (2024-01-24)</small>
 
+* chore(release): v2.0.3 ([54a9af9](https://github.com/yaswanth6240/test-repo/commit/54a9af9))
+* fix: check gitversion ([e9ea18e](https://github.com/yaswanth6240/test-repo/commit/e9ea18e))
+* fix: check gitversion ([4eef53b](https://github.com/yaswanth6240/test-repo/commit/4eef53b))
+* fix: Check gitversion ([d0de834](https://github.com/yaswanth6240/test-repo/commit/d0de834))
 
-### Bug Fixes
 
-* check gitversion ([5aaa77a](https://github.com/yaswanth6240/test-repo/commit/5aaa77aafe0ba47ca1ebb699293b6ac2c258fd22))
 
-## [2.0.1](https://github.com/yaswanth6240/test-repo/compare/v2.0.0...v2.0.1) (2024-01-24)
+## <small>2.0.2 (2024-01-24)</small>
 
+* chore(release): v2.0.2 ([4221ad3](https://github.com/yaswanth6240/test-repo/commit/4221ad3))
+* fix: check gitversion ([5aaa77a](https://github.com/yaswanth6240/test-repo/commit/5aaa77a))
 
-### Bug Fixes
 
-* Check gitversion ([a7acd59](https://github.com/yaswanth6240/test-repo/commit/a7acd591f1fdb9e700e1b742c7200f37366d70c3))
 
-## [2.0.0](https://github.com/yaswanth6240/test-repo/compare/v1.1.5...v2.0.0) (2024-01-19)
+## <small>2.0.1 (2024-01-24)</small>
 
+* chore(release): v2.0.1 ([c5db03a](https://github.com/yaswanth6240/test-repo/commit/c5db03a))
+* fix: Check gitversion ([a7acd59](https://github.com/yaswanth6240/test-repo/commit/a7acd59))
 
-### ⚠ BREAKING CHANGES
+
+
+## 2.0.0 (2024-01-19)
+
+* chore(release): v2.0.0 ([8dba3cc](https://github.com/yaswanth6240/test-repo/commit/8dba3cc))
+* feat: allow provided config object to extend other configs ([7852a4e](https://github.com/yaswanth6240/test-repo/commit/7852a4e))
+
+
+### BREAKING CHANGE
 
 * key in config file is now used for extending other config files
 
-### Features
 
-* allow provided config object to extend other configs ([7852a4e](https://github.com/yaswanth6240/test-repo/commit/7852a4e1871dabe4e9d79f861cd869a4727be8b2))
+## <small>1.1.5 (2024-01-19)</small>
 
-## [1.1.5](https://github.com/yaswanth6240/test-repo/compare/v1.1.4...v1.1.5) (2024-01-19)
+* chore(release): v1.1.5 ([1a90f31](https://github.com/yaswanth6240/test-repo/commit/1a90f31))
+* fix: release count to inf ([775f721](https://github.com/yaswanth6240/test-repo/commit/775f721))
 
 
-### Bug Fixes
 
-* release count to inf ([775f721](https://github.com/yaswanth6240/test-repo/commit/775f721e7d9486c66a0d4edcca254d24da61d42f))
+## <small>1.1.4 (2024-01-19)</small>
 
-## [1.1.4](https://github.com/yaswanth6240/test-repo/compare/v1.1.3...v1.1.4) (2024-01-19)
+* chore(release): v1.1.4 ([4b200a3](https://github.com/yaswanth6240/test-repo/commit/4b200a3))
+* fix: added log ([d3ebf50](https://github.com/yaswanth6240/test-repo/commit/d3ebf50))
 
 
-### Bug Fixes
 
-* added log ([d3ebf50](https://github.com/yaswanth6240/test-repo/commit/d3ebf502ad818a51d9b4d3480dcb5c4de10c2992))
+## <small>1.1.3 (2024-01-19)</small>
 
-## [1.1.3](https://github.com/yaswanth6240/test-repo/compare/v1.1.2...v1.1.3) (2024-01-19)
+* chore(release): v1.1.3 ([cdd3273](https://github.com/yaswanth6240/test-repo/commit/cdd3273))
+* fix: Backfilled changelog ([ca85469](https://github.com/yaswanth6240/test-repo/commit/ca85469))
 
 
-### Bug Fixes
 
-* Backfilled changelog ([ca85469](https://github.com/yaswanth6240/test-repo/commit/ca8546949ad771e7d596c8263a32bf28df35c4f6))
+## <small>1.1.2 (2024-01-19)</small>
 
-## [1.1.2](https://github.com/yaswanth6240/test-repo/compare/v1.1.1...v1.1.2) (2024-01-19)
+* chore(release): v1.1.2 ([6f0b4a1](https://github.com/yaswanth6240/test-repo/commit/6f0b4a1))
+* fix: Backfilled changelog ([113e7d8](https://github.com/yaswanth6240/test-repo/commit/113e7d8))
+* BREAKING CHANGE:  key in config file is now used for extending other config files ([b9bd57a](https://github.com/yaswanth6240/test-repo/commit/b9bd57a))
+* test: backfilled changelog ([48e9aa8](https://github.com/yaswanth6240/test-repo/commit/48e9aa8))
+* refactor: backfilled changelog ([b6dfecc](https://github.com/yaswanth6240/test-repo/commit/b6dfecc))
+* style: backfilled changelog ([6c7584a](https://github.com/yaswanth6240/test-repo/commit/6c7584a))
 
 
-### Bug Fixes
 
-* Backfilled changelog ([113e7d8](https://github.com/yaswanth6240/test-repo/commit/113e7d82c1f1f76e8b39ac1e5489c9c35fbc48a9))
+## <small>1.1.1 (2024-01-19)</small>
 
-## [1.1.1](https://github.com/yaswanth6240/test-repo/compare/v1.1.0...v1.1.1) (2024-01-19)
+* chore: backfilled changelog ([5e671c9](https://github.com/yaswanth6240/test-repo/commit/5e671c9))
+* chore(release): v1.1.1 ([a1a15bc](https://github.com/yaswanth6240/test-repo/commit/a1a15bc))
+* perf: backfilled changelog ([4eef5ef](https://github.com/yaswanth6240/test-repo/commit/4eef5ef))
+* ci: backfilled changelog ([429b1c4](https://github.com/yaswanth6240/test-repo/commit/429b1c4))
+* build: Backfilled changelog ([c30e36c](https://github.com/yaswanth6240/test-repo/commit/c30e36c))
+* docs: Backfilled changelog ([f861265](https://github.com/yaswanth6240/test-repo/commit/f861265))
+* BREAKING CHANGE: commit ([17f291f](https://github.com/yaswanth6240/test-repo/commit/17f291f))
 
 
-### Performance Improvements
 
-* backfilled changelog ([4eef5ef](https://github.com/yaswanth6240/test-repo/commit/4eef5efb7c08bcd3b05ca71e08c99c0ade2174c9))
+## 1.1.0 (2024-01-18)
 
-## [1.1.0](https://github.com/yaswanth6240/test-repo/compare/v1.0.11...v1.1.0) (2024-01-18)
+* chore(release): v1.1.0 ([a8c0fc6](https://github.com/yaswanth6240/test-repo/commit/a8c0fc6))
+* feat: commit to patch  publish ([8250235](https://github.com/yaswanth6240/test-repo/commit/8250235))
 
 
-### Features
 
-* commit to patch  publish ([8250235](https://github.com/yaswanth6240/test-repo/commit/8250235f587579967e2bd0f2ea2445a871fcd5cb))
+## <small>1.0.11 (2024-01-18)</small>
 
-## [1.0.11](https://github.com/yaswanth6240/test-repo/compare/v1.0.10...v1.0.11) (2024-01-18)
+* chore(release): v1.0.11 ([595101b](https://github.com/yaswanth6240/test-repo/commit/595101b))
+* fix: commit to publish ([eddc46b](https://github.com/yaswanth6240/test-repo/commit/eddc46b))
 
 
-### Bug Fixes
 
-* commit to publish ([eddc46b](https://github.com/yaswanth6240/test-repo/commit/eddc46ba5f8f9a8af93dcc1b9e2c60a808cefc14))
+## <small>1.0.10 (2024-01-18)</small>
 
-## [1.0.10](https://github.com/yaswanth6240/test-repo/compare/v1.0.9...v1.0.10) (2024-01-18)
+* chore(release): v1.0.10 ([dd964d8](https://github.com/yaswanth6240/test-repo/commit/dd964d8))
+* fix: commit to publish ([22e9cc4](https://github.com/yaswanth6240/test-repo/commit/22e9cc4))
 
 
-### Bug Fixes
 
-* commit to publish ([22e9cc4](https://github.com/yaswanth6240/test-repo/commit/22e9cc4e8c96406976a4b3f80ae7acb49b0f456a))
+## <small>1.0.9 (2024-01-18)</small>
 
-## [1.0.9](https://github.com/yaswanth6240/test-repo/compare/v1.0.8...v1.0.9) (2024-01-18)
+* chore(release): v1.0.9 ([e1633db](https://github.com/yaswanth6240/test-repo/commit/e1633db))
+* fix: commit to check publish ([1afbaf7](https://github.com/yaswanth6240/test-repo/commit/1afbaf7))
 
 
-### Bug Fixes
 
-* commit to check publish ([1afbaf7](https://github.com/yaswanth6240/test-repo/commit/1afbaf77150471579b5498482c4b9ba4973c79a3))
+## <small>1.0.8 (2024-01-18)</small>
 
-## [1.0.8](https://github.com/yaswanth6240/test-repo/compare/v1.0.7...v1.0.8) (2024-01-18)
+* chore(release): v1.0.8 ([33cec4b](https://github.com/yaswanth6240/test-repo/commit/33cec4b))
+* fix: commit to check publish ([7d1f03b](https://github.com/yaswanth6240/test-repo/commit/7d1f03b))
 
 
-### Bug Fixes
 
-* commit to check publish ([7d1f03b](https://github.com/yaswanth6240/test-repo/commit/7d1f03bdb61ee0ec85176e4e322ca71371798d0f))
+## <small>1.0.7 (2024-01-18)</small>
 
-## [1.0.7](https://github.com/yaswanth6240/test-repo/compare/v1.0.6...v1.0.7) (2024-01-18)
+* chore(release): v1.0.7 ([60e5579](https://github.com/yaswanth6240/test-repo/commit/60e5579))
+* fix: commit to check publish ([7a729eb](https://github.com/yaswanth6240/test-repo/commit/7a729eb))
 
 
-### Bug Fixes
 
-* commit to check publish ([7a729eb](https://github.com/yaswanth6240/test-repo/commit/7a729eb692bb1a905ff92bd4c540a026165b8ad6))
+## <small>1.0.6 (2024-01-18)</small>
 
-## [1.0.6](https://github.com/yaswanth6240/test-repo/compare/v1.0.5...v1.0.6) (2024-01-18)
+* chore(release): v1.0.6 ([85e4e13](https://github.com/yaswanth6240/test-repo/commit/85e4e13))
+* fix: commit to check publish ([b1c3e39](https://github.com/yaswanth6240/test-repo/commit/b1c3e39))
 
 
-### Bug Fixes
 
-* commit to check publish ([b1c3e39](https://github.com/yaswanth6240/test-repo/commit/b1c3e399eae9520eadabd1755f8e3df21ddde2f8))
+## <small>1.0.5 (2024-01-18)</small>
 
-## [1.0.5](https://github.com/yaswanth6240/test-repo/compare/v1.0.4...v1.0.5) (2024-01-18)
+* chore(release): v1.0.5 ([97453ab](https://github.com/yaswanth6240/test-repo/commit/97453ab))
+* fix: commit to check publish again ([7da124d](https://github.com/yaswanth6240/test-repo/commit/7da124d))
 
 
-### Bug Fixes
 
-* commit to check publish again ([7da124d](https://github.com/yaswanth6240/test-repo/commit/7da124dff3f0d8d9f9b662cc8f32d5be7483a569))
+## <small>1.0.4 (2024-01-18)</small>
 
-## [1.0.4](https://github.com/yaswanth6240/test-repo/compare/v1.0.3...v1.0.4) (2024-01-18)
+* chore(release): v1.0.4 ([a968554](https://github.com/yaswanth6240/test-repo/commit/a968554))
+* fix: commit to check publish ([7a76adf](https://github.com/yaswanth6240/test-repo/commit/7a76adf))
 
 
-### Bug Fixes
 
-* commit to check publish ([7a76adf](https://github.com/yaswanth6240/test-repo/commit/7a76adf63cadcead2e808d950670d308c9052541))
+## <small>1.0.3 (2024-01-18)</small>
 
-## [1.0.3](https://github.com/yaswanth6240/test-repo/compare/v1.0.2...v1.0.3) (2024-01-18)
+* chore(release): v1.0.3 ([9c8cf5a](https://github.com/yaswanth6240/test-repo/commit/9c8cf5a))
+* fix: commit to check release again ([e179839](https://github.com/yaswanth6240/test-repo/commit/e179839))
 
 
-### Bug Fixes
 
-* commit to check release again ([e179839](https://github.com/yaswanth6240/test-repo/commit/e179839afdc5e13f26f4ababae4305e73110422f))
+## <small>1.0.2 (2024-01-18)</small>
 
-## [1.0.2](https://github.com/yaswanth6240/test-repo/compare/v1.0.1...v1.0.2) (2024-01-18)
+* chore(release): v1.0.2 ([e95ac7a](https://github.com/yaswanth6240/test-repo/commit/e95ac7a))
+* fix: 5th commit to check ([8c6554d](https://github.com/yaswanth6240/test-repo/commit/8c6554d))
+* fix: 6th commit to check ([296776e](https://github.com/yaswanth6240/test-repo/commit/296776e))
+* fix: 7 commit to check ([71bc3ae](https://github.com/yaswanth6240/test-repo/commit/71bc3ae))
+* fix: commit to release ([dde4d3b](https://github.com/yaswanth6240/test-repo/commit/dde4d3b))
+* fix: Fourth commit to check ([20a2f8b](https://github.com/yaswanth6240/test-repo/commit/20a2f8b))
+* fix: Third commit to check ([dc649c3](https://github.com/yaswanth6240/test-repo/commit/dc649c3))
 
 
-### Bug Fixes
 
-* 5th commit to check ([8c6554d](https://github.com/yaswanth6240/test-repo/commit/8c6554d5010458c8ebe1dd6d8bd1d4a066d3f67c))
-* 6th commit to check ([296776e](https://github.com/yaswanth6240/test-repo/commit/296776e33968bd8483f31f375ee4030d73050a1e))
-* 7 commit to check ([71bc3ae](https://github.com/yaswanth6240/test-repo/commit/71bc3ae57c32d30f337d22673dc5e864859e576e))
-* commit to release ([dde4d3b](https://github.com/yaswanth6240/test-repo/commit/dde4d3b5d0d1d8a03b4bab543fbcc2cf70aecb82))
-* Fourth commit to check ([20a2f8b](https://github.com/yaswanth6240/test-repo/commit/20a2f8be3f6bbec2d8b305f5b1764b0a585b5db9))
-* Third commit to check ([dc649c3](https://github.com/yaswanth6240/test-repo/commit/dc649c3c0bcb98c62aa3b3c976724acb853e5058))
+## <small>1.0.1 (2024-01-18)</small>
 
-## 1.0.1 (2024-01-18)
+* chore: release 1.0.1 ([36fe3a6](https://github.com/yaswanth6240/test-repo/commit/36fe3a6))
+* initial commit ([e55787d](https://github.com/yaswanth6240/test-repo/commit/e55787d))
+* Second commit ([fd5fb80](https://github.com/yaswanth6240/test-repo/commit/fd5fb80))
+
+
 

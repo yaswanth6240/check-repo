@@ -1,5 +1,20 @@
+## <small>2.3.1 (2024-03-07)</small>
+
+* fix: addedm npm i ([27a3810](https://github.com/yaswanth6240/test-repo/commit/27a3810))
+* fix: release ([f47a96f](https://github.com/yaswanth6240/test-repo/commit/f47a96f))
+* fix: try ([63f426d](https://github.com/yaswanth6240/test-repo/commit/63f426d))
+* fix: try ([83238a0](https://github.com/yaswanth6240/test-repo/commit/83238a0))
+* fix: try ([f2ff03a](https://github.com/yaswanth6240/test-repo/commit/f2ff03a))
+* fix: trying to release ([6fa9570](https://github.com/yaswanth6240/test-repo/commit/6fa9570))
+* fix: tryto ([6646d44](https://github.com/yaswanth6240/test-repo/commit/6646d44))
+* fix: ([4590348](https://github.com/yaswanth6240/test-repo/commit/4590348))
+* fix: ([7dd79aa](https://github.com/yaswanth6240/test-repo/commit/7dd79aa))
+
+
+
 ## <small>2.2.21 (2024-03-07)</small>
 
+* chore(release): v2.2.21 [skip ci] ([5be03b4](https://github.com/yaswanth6240/test-repo/commit/5be03b4))
 * fix: try release ([c0376aa](https://github.com/yaswanth6240/test-repo/commit/c0376aa))
 * fix: trying to release ([985be9d](https://github.com/yaswanth6240/test-repo/commit/985be9d))
 * fix: version bump ([d5c523e](https://github.com/yaswanth6240/test-repo/commit/d5c523e))

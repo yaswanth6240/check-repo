@@ -1,31 +1,29 @@
 
-const config = require('conventional-changelog-conventionalcommits')
+const parserOpts = require('conventional-changelog-conventionalcommits/parserOpts')
 
-module.exports = async() => {
+const conventionalChangelog = require('conventional-changelog-conventionalcommit/conventionalChangelog')
 
-    const conventionalCommitsConfig = await config({
-        'types': [
-          { type: 'build', hidden: true },
-          { type: 'release', hidden: true },
-          { type: 'deprecate', section: 'Deprecated' }, // minor
-          { type: 'devops', hidden: true },
-          { type: 'docs', hidden: true },
-          { type: 'feat', section: 'Added' }, // minor
-          { type: 'fix', section: 'Fixed' }, // patch
-          { type: 'perf', section: 'Performance' }, // patch
-          { type: 'refactor', hidden: true },
-          { type: 'remove', section: 'Removed' }, // major
-          { type: 'security', section: 'Security' }, // patch
-          { type: 'style', hidden: true },
-          { type: 'test', hidden: true },
-        ]
-      })
+var config = {
+    'types': [
+      { type: 'build', hidden: true },
+      { type: 'release', hidden: true },
+      { type: 'deprecate', section: 'Deprecated' }, // minor
+      { type: 'devops', hidden: true },
+      { type: 'docs', hidden: true },
+      { type: 'feat', section: 'Added' }, // minor
+      { type: 'fix', section: 'Fixed' }, // patch
+      { type: 'perf', section: 'Performance' }, // patch
+      { type: 'refactor', hidden: true },
+      { type: 'remove', section: 'Removed' }, // major
+      { type: 'security', section: 'Security' }, // patch
+      { type: 'style', hidden: true },
+      { type: 'test', hidden: true },
+    ]
+  }
 
-      return {
-        gitRawCommitsOpts: conventionalCommitsConfig.gitRawCommitsOpts,
-        parserOpts: conventionalCommitsConfig.parserOpts,
-        writerOpts: conventionalCommitsConfig.writerOpts,
-        conventionalChangelog: conventionalCommitsConfig.conventionalChangelog,
+module.exports =  {
+        parserOpts: parserOpts(config),
+        conventionalChangelog: conventionalChangelog(config),
         recommendedBumpOpts: {
 
         whatBump (commits) {
@@ -51,7 +49,6 @@ module.exports = async() => {
             }
           }
     }}
-}
 
     //whatBump: (commits) => {
         // let level = 2

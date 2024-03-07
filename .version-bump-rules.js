@@ -20,7 +20,7 @@ var config = {
   }
 
 module.exports =  {
-        parserOpts: parserOpts(config),
+        parserOpts: parserOpts.createParserOpts(config),
         recommendedBumpOpts: {
 
         whatBump (commits) {

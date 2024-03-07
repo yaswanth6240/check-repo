@@ -1,5 +1,12 @@
+## <small>2.4.1 (2024-03-07)</small>
+
+* fix: try ([a604171](https://github.com/yaswanth6240/test-repo/commit/a604171))
+
+
+
 ## 2.4.0 (2024-03-07)
 
+* chore(release): v2.4.0 [skip ci] ([f7d770c](https://github.com/yaswanth6240/test-repo/commit/f7d770c))
 * feat: try ([3c22a35](https://github.com/yaswanth6240/test-repo/commit/3c22a35))
 
 

@@ -1,4 +1,4 @@
-const core = require('@actions/core')
+
 
 module.exports = Object.assign(conventionalCommitsConfig, {
     recommendedBumpOpts: Object.assign(conventionalCommitsConfig.recommendedBumpOpts, {
@@ -6,9 +6,8 @@ module.exports = Object.assign(conventionalCommitsConfig, {
         let level = 2
         let breakings = 0
         let features = 0
-  
-        core.info(`The commits in what Bump "${commits}"`)
-        console.log("what bump called")
+
+        console.log("what bump called "+ commits)
   
         return {
           level: level,

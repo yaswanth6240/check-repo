@@ -18,6 +18,8 @@ module.exports = async () => {
         { type: 'test', hidden: true },
       ]
     })
+
+    console.log("The config " + config)
   
     return Object.assign(conventionalCommitsConfig, {
       recommendedBumpOpts: Object.assign(conventionalCommitsConfig.recommendedBumpOpts, {

@@ -1,11 +1,21 @@
+## <small>2.2.21 (2024-03-07)</small>
+
+* fix: try release ([c0376aa](https://github.com/yaswanth6240/test-repo/commit/c0376aa))
+* fix: trying to release ([985be9d](https://github.com/yaswanth6240/test-repo/commit/985be9d))
+* fix: version bump ([d5c523e](https://github.com/yaswanth6240/test-repo/commit/d5c523e))
+* fix: whatbump ([419a174](https://github.com/yaswanth6240/test-repo/commit/419a174))
+
+
+
 ## 0.1.0 (2024-03-07)
 
+* chore(release): v0.1.0 [skip ci] ([020e55d](https://github.com/yaswanth6240/test-repo/commit/020e55d))
+* chore(release): vnull [skip ci] ([a4730dd](https://github.com/yaswanth6240/test-repo/commit/a4730dd))
 * fix: try ([e5cf403](https://github.com/yaswanth6240/test-repo/commit/e5cf403))
 * fix: try ([de9109e](https://github.com/yaswanth6240/test-repo/commit/de9109e))
 * fix: try ([4a011e1](https://github.com/yaswanth6240/test-repo/commit/4a011e1))
 * fix: try release ([9f04283](https://github.com/yaswanth6240/test-repo/commit/9f04283))
 * fix: try release ([1852c68](https://github.com/yaswanth6240/test-repo/commit/1852c68))
-* chore(release): vnull [skip ci] ([a4730dd](https://github.com/yaswanth6240/test-repo/commit/a4730dd))
 
 
 

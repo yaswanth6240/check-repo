@@ -43,6 +43,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
-          tag_name: "v${{ env.GIT_VERSION }}"
-          release_name: "v${{ env.GIT_VERSION }}"
+          tag_name: "v${{ env.GitVersion_SemVer }}"
+          release_name: "v${{ env.GitVersion_SemVer }}"
           body: ${{ steps.changelog.outputs.clean_changelog }}

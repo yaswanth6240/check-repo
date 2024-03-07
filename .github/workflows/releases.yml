@@ -22,48 +22,39 @@ jobs:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - name: Conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v5
+        with:
+          github-token: ${{ secrets.RELEASE_TOKEN }}
+          version-file: './package.json,./package-lock.json'
+          release-count: 0
 
-      - name: npm install
-        run: npm install
-    
-      #   id: changelog
-      #   uses: TriPSs/conventional-changelog-action@v3.7.1
-      #   with:
-      #     github-token: ${{ secrets.RELEASE_TOKEN }}
-      #     version-file: './package.json,./package-lock.json'
-      #     release-count: 0
+      - name: Install GitVersion
+        run: |
+          wget https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-x64-5.12.0.tar.gz
+          tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
 
-      # - name: Install GitVersion
-      #   run: |
-      #     wget https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-x64-5.12.0.tar.gz
-      #     tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
+      - name: Determine version
+        run: |
+          version_output=$(./gitversion /config GitVersion.yml /output buildserver)
+          echo "$version_output" > gitversion_output.txt
+          ./gitversion /showvariable FullSemVer
 
-      # - name: Determine version
-      #   run: |
-      #     version_output=$(./gitversion /config GitVersion.yml /output buildserver)
-      #     echo "$version_output" > gitversion_output.txt
-      #     ./gitversion /showvariable FullSemVer
+      - name: debug
+        run: |
+          cat GitVersion.yml
+          echo "${{steps.changelog.outputs.tag}}"
+          echo "${{steps.changelog.outputs.clean_changelog}}"
+          echo "${{env.GitVersion_SemVer}}"
 
-      # - name: debug
-      #   run: |
-      #     cat GitVersion.yml
-      #     echo "${{steps.changelog.outputs.tag}}"
-      #     echo "${{steps.changelog.outputs.clean_changelog}}"
-      #     echo "${{env.GitVersion_SemVer}}"
-
-      # - name: create release
-      #   uses: actions/create-release@v1
-      #   if: ${{ steps.changelog.outputs.skipped == 'false' }}
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-      #   with:
-      #     tag_name: "v${{ env.GitVersion_SemVer }}"
-      #     release_name: "v${{ env.GitVersion_SemVer }}"
-      #     body: ${{ steps.changelog.outputs.clean_changelog }}
-      
-      - name: Semantic Release
-        run: npx semantic-release
+      - name: create release
+        uses: actions/create-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
-          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: "v${{ env.GitVersion_SemVer }}"
+          release_name: "v${{ env.GitVersion_SemVer }}"
+          body: ${{ steps.changelog.outputs.clean_changelog }}

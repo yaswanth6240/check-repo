@@ -30,6 +30,7 @@ jobs:
           github-token: ${{ secrets.RELEASE_TOKEN }}
           version-file: './package.json,./package-lock.json'
           release-count: 0
+          config: ./conventional.config.js
 
       - name: Install GitVersion
         run: |

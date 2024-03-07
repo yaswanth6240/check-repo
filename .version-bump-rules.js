@@ -1,7 +1,6 @@
 
 
-module.exports = Object.assign(conventionalCommitsConfig, {
-    recommendedBumpOpts: Object.assign(conventionalCommitsConfig.recommendedBumpOpts, {
+module.exports = {
       whatBump: (commits) => {
         let level = 2
         let breakings = 0
@@ -16,5 +15,4 @@ module.exports = Object.assign(conventionalCommitsConfig, {
             : `There are ${breakings} BREAKING CHANGES and ${features} features`
         }
       }
-    })
-  })
+  }

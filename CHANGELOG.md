@@ -1,5 +1,12 @@
+## <small>2.3.7 (2024-03-07)</small>
+
+* fix: try ([a1e4739](https://github.com/yaswanth6240/test-repo/commit/a1e4739))
+
+
+
 ## <small>2.3.6 (2024-03-07)</small>
 
+* chore(release): v2.3.6 [skip ci] ([cfde25a](https://github.com/yaswanth6240/test-repo/commit/cfde25a))
 * fix: try ([67c00be](https://github.com/yaswanth6240/test-repo/commit/67c00be))
 * fix: try ([4a737d9](https://github.com/yaswanth6240/test-repo/commit/4a737d9))
 

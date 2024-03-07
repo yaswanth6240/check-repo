@@ -31,25 +31,7 @@ jobs:
           version-file: './package.json,./package-lock.json'
           release-count: 0
           bump-minor: true
-          bump-rules-path: .version-bump-rules.js
-
-      - name: Install GitVersion
-        run: |
-          wget https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-x64-5.12.0.tar.gz
-          tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
-
-      - name: Determine version
-        run: |
-          version_output=$(./gitversion /config GitVersion.yml /output buildserver)
-          echo "$version_output" > gitversion_output.txt
-          ./gitversion /showvariable FullSemVer
-
-      - name: debug
-        run: |
-          cat GitVersion.yml
-          echo "${{steps.changelog.outputs.tag}}"
-          echo "${{steps.changelog.outputs.clean_changelog}}"
-          echo "${{env.GitVersion_SemVer}}"
+          config-file-path: .version-bump-rules.js
 
       - name: create release
         uses: actions/create-release@v1
@@ -57,6 +39,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
-          tag_name: "v${{ env.GitVersion_SemVer }}"
-          release_name: "v${{ env.GitVersion_SemVer }}"
+          tag_name: "v${{ env.GIT_VERSION }}"
+          release_name: "v${{ env.GIT_VERSION }}"
           body: ${{ steps.changelog.outputs.clean_changelog }}

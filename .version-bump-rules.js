@@ -6,9 +6,7 @@ module.exports = {
         let level = 2
         let breakings = 0
         let features = 0
-  
-        core.info(`The commits in what Bump "${commits}"`)
-        console.log("what bump called "+ com)
+        console.log("what bump called "+ commits)
   
         return {
           level: level,

@@ -1,20 +1,21 @@
-module.exports = {
-    minor: {
-      breaking: 0,
-      features: 0,
-      fixes: 1,
-      other: 0,
-    },
-    patch: {
-        breaking: 0,
-        features: 0,
-        fixes: 1,
-        other: 0,
-      },
-      major: {
-        breaking: 1,
-        features: 0,
-        fixes: 0,
-        other: 0,
-      },
-  };
+const core = require('@actions/core')
+
+module.exports = Object.assign(conventionalCommitsConfig, {
+    recommendedBumpOpts: Object.assign(conventionalCommitsConfig.recommendedBumpOpts, {
+      whatBump: (commits) => {
+        let level = 2
+        let breakings = 0
+        let features = 0
+  
+        core.info(`The commits in what Bump "${commits}"`)
+        console.log("what bump called")
+  
+        return {
+          level: level,
+          reason: breakings === 1
+            ? `There is ${breakings} BREAKING CHANGE and ${features} features`
+            : `There are ${breakings} BREAKING CHANGES and ${features} features`
+        }
+      }
+    })
+  })

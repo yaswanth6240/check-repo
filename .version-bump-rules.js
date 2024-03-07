@@ -1,12 +1,14 @@
-
+const core = require('@actions/core')
 
 module.exports = {
+    recommendedBumpOpts: {
       whatBump: (commits) => {
         let level = 2
         let breakings = 0
         let features = 0
-
-        console.log("what bump called "+ commits)
+  
+        core.info(`The commits in what Bump "${commits}"`)
+        console.log("what bump called "+ com)
   
         return {
           level: level,
@@ -15,4 +17,5 @@ module.exports = {
             : `There are ${breakings} BREAKING CHANGES and ${features} features`
         }
       }
+    }
   }

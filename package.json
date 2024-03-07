@@ -8,7 +8,8 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "release-it": "17.0.1"
+    "release-it": "17.0.1",
+    "semantic-release": "^23.0.2"
   },
   "repository": {
     "type": "git",

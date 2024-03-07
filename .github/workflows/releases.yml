@@ -30,7 +30,7 @@ jobs:
           github-token: ${{ secrets.RELEASE_TOKEN }}
           version-file: './package.json,./package-lock.json'
           release-count: 0
-          config: ./conventional.config.js
+          bump-rules-path: .version-bump-rules.js
 
       - name: Install GitVersion
         run: |

@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "conventional-recommended-bump": "^9.0.0",
@@ -19,18 +18,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yaswanth6240/test-repo/issues"
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
-    "npm": {
-      "publish": true
-    },
-    "github": {
-      "release": false
-    }
   },
   "homepage": "https://github.com/yaswanth6240/test-repo#readme"
 }

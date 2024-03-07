@@ -1,4 +1,4 @@
-
+const addBangNotes = require('conventional-changelog-conventionalcommits/add-bang-notes')
 
 module.exports = {
     recommendedBumpOpts: {
@@ -6,7 +6,28 @@ module.exports = {
         let level = 2
         let breakings = 0
         let features = 0
-        console.log("what bump called "+ commits)
+
+        commits.forEach(commit => {
+            // adds additional breaking change notes
+            // for the special case, test(system)!: hello world, where there is
+            // a '!' but no 'BREAKING CHANGE' in body:
+            addBangNotes(commit)
+
+            console.log("what bump called "+ commit)
+  
+            if (commit.notes.length > 0) {
+              breakings += commit.notes.length
+              level = 0
+            } else if (commit.type === 'feat' || commit.type === 'feature') {
+              features += 1
+              if (level === 2) {
+                level = 1
+              }
+            } else if (commit.type === 'remove') { // Your custom type
+              level = 0
+              breakings += 1
+            }
+          })
   
         return {
           level: level,

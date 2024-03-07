@@ -8,4 +8,9 @@ module.exports = {
     parserOpts: {
       noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'],
     },
+    types: [
+        { type: 'fix', section: 'Bug Fixes', hidden: false },
+        { type: 'minor', section: 'Minor Changes', hidden: false },
+        { type: 'chore', section: 'Chores', hidden: true },
+      ]
   };

@@ -29,6 +29,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      
+      - name: Set up Git identity
+        run: |
+          git config user.email "yaswanth6240@gmail.com"
+          git config user.name "yaswanth6240"
 
       - name: Install dependencies
         run: npm install

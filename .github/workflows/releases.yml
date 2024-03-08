@@ -25,6 +25,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install dependencies 🔧
         run: npm i
+
+      - name: make config
+        run: npm run makeconfig
+
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v5.1.0
@@ -33,7 +37,7 @@ jobs:
           version-file: './package.json,./package-lock.json'
           release-count: 0
           preset: "conventionalcommits"
-          config-file-path: .version-bump-rules.js
+          config-file-path: 'module.exports = ${{global.config}}'
 
       - name: create release
         uses: actions/create-release@v1

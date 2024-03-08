@@ -1,7 +1,8 @@
 
-const parserOpts = require('conventional-changelog-conventionalcommits/parserOpts')
+const config = require('conventional-changelog-conventionalcommits')
 
-var config = {
+module.exports = async () => {
+  const conventionalCommitsConfig = await config({
     'types': [
       { type: 'build', hidden: true },
       { type: 'release', hidden: true },
@@ -17,19 +18,17 @@ var config = {
       { type: 'style', hidden: true },
       { type: 'test', hidden: true },
     ]
-  }
+  })
 
-module.exports =  {
-        parserOpts: parserOpts.createParserOpts(config),
-        recommendedBumpOpts: {
-
+  return Object.assign(conventionalCommitsConfig, {
+    recommendedBumpOpts: Object.assign(conventionalCommitsConfig.recommendedBumpOpts, {
         whatBump (commits) {
             let level = 2
             let breakings = 0
             let features = 0
-      
-            commits.forEach(commit => {
+
             console.log("what bump called "+ commit)
+            commits.forEach(commit => {
               if (commit.notes.length > 0) {
                 breakings += commit.notes.length
                 level = 0
@@ -46,7 +45,9 @@ module.exports =  {
               reason: `There are ${breakings} BREAKING CHANGES and ${features} features`
             }
           }
-    }}
+    })
+  })
+}
 
     //whatBump: (commits) => {
         // let level = 2

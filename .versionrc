@@ -1,0 +1,8 @@
+{
+  "types": [
+    {"type": "feat", "section": "Features", "hidden": false},
+    {"type": "fix", "section": "Bug Fixes", "hidden": false},
+    {"type": "chore", "section": "Chores", "hidden": false},
+    {"type": "release", "releaseType": "minor", "hidden": false}
+  ]
+}

@@ -43,8 +43,20 @@ jobs:
           echo "${{ github.event }}"
           echo "${{ github.event.pull_request }}"
 
+      - name: Determine release type
+        id: determine-release
+        run: |
+          if [[ "${{ github.event.pull_request.title }}" =~ "BREAKING" ]]; then
+            echo "::set-output name=release_type::major"
+          elif [[ "${{ github.event.pull_request.title }}" =~ "minor" ]]; then
+            echo "::set-output name=release_type::minor"
+          else
+            echo "::set-output name=release_type::patch"
+          fi
+        shell: bash
+
       - name: Run standard-version
-        run: npx standard-version --release-as patch
+        run: npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
 
       - name: Push tags and changelog
         run: |

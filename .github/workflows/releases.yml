@@ -40,8 +40,8 @@ jobs:
       - name: Debug github
         run: |
           echo "${{ github.event_name }}"
-          echo "${{ toJSON(github.event) }}"
-          echo "${{ toJSON(github.event.pull_request) }}"
+          echo "${{ github.event }}"
+          echo "${{ github.event.pull_request }}"
 
       - name: Run standard-version
         run: npx standard-version --release-as patch

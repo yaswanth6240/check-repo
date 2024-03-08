@@ -37,7 +37,7 @@ jobs:
           version-file: './package.json,./package-lock.json'
           release-count: 0
           preset: "conventionalcommits"
-          config-file-path: 'module.exports = ${{global.config}}'
+          config-file-path: config.js
 
       - name: create release
         uses: actions/create-release@v1

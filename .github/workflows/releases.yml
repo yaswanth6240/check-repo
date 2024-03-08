@@ -20,31 +20,46 @@ jobs:
 
   release-on-push:
     if: github.event_name == 'push'
-    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Install dependencies 🔧
-        run: npm i
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: make config
-        run: npm run makeconfig
-
-      - name: Conventional Changelog Action
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v5.1.0
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          github-token: ${{ secrets.RELEASE_TOKEN }}
-          version-file: './package.json,./package-lock.json'
-          release-count: 0
-          preset: "conventionalcommits"
-          config-file-path: config.js
+          node-version: 18
 
-      - name: create release
-        uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
-        env:
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run standard-version
+        run: npx standard-version
+
+      - name: Push tags and changelog
+        run: |
+          git push --follow-tags origin main
+        with:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-        with:
-          tag_name: "${{ steps.changelog.outputs.tag }}"
-          release_name: "${{ steps.changelog.outputs.tag }}"
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+
+      # - name: make config
+      #   run: npm run makeconfig
+
+      # - name: Conventional Changelog Action
+      #   id: changelog
+      #   uses: TriPSs/conventional-changelog-action@v5.1.0
+      #   with:
+      #     github-token: ${{ secrets.RELEASE_TOKEN }}
+      #     version-file: './package.json,./package-lock.json'
+      #     release-count: 0
+      #     preset: "conventionalcommits"
+      #     config-file-path: config.js
+
+      # - name: create release
+      #   uses: actions/create-release@v1
+      #   if: ${{ steps.changelog.outputs.skipped == 'false' }}
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      #   with:
+      #     tag_name: "${{ steps.changelog.outputs.tag }}"
+      #     release_name: "${{ steps.changelog.outputs.tag }}"
+      #     body: ${{ steps.changelog.outputs.clean_changelog }}

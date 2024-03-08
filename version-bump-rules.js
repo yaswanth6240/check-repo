@@ -23,12 +23,12 @@ module.exports = async () => {
   return Object.assign(conventionalCommitsConfig, {
     recommendedBumpOpts: Object.assign(conventionalCommitsConfig.recommendedBumpOpts, {
         whatBump (commits) {
+            console.log("Debug ", "in what bump")
             let level = 2
             let breakings = 0
             let features = 0
-
-            console.log("what bump called "+ commit)
             commits.forEach(commit => {
+              console.log("what bump called "+ commit)
               if (commit.notes.length > 0) {
                 breakings += commit.notes.length
                 level = 0

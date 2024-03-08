@@ -41,8 +41,6 @@ jobs:
 
       - name: Run standard-version
         run: npx standard-version --release-as ${{ github.event.head_commit.message }}
-        env:
-        GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
       - name: Push tags and changelog
         run: |

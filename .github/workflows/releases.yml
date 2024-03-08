@@ -39,7 +39,7 @@ jobs:
         run: |
           git push --follow-tags origin main
         with:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
       # - name: make config
       #   run: npm run makeconfig

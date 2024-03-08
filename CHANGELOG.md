@@ -2,10 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-##  (2024-03-08)
+## 2.5.0 (2024-03-08)
 
 
-* try ([44d35a1](https://github.com/yaswanth6240/test-repo/commit/44d35a1d12bb7ec60d62c80d5061d4a709513b15))
+* try ([abeaebf](https://github.com/yaswanth6240/test-repo/commit/abeaebf693544bd80403c79835a2eeff4bf194a0))
 
 ### 2.4.11 (2024-03-08)
 

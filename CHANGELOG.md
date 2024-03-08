@@ -1,46 +1,13 @@
-## <small>2.4.5 (2024-03-07)</small>
+# Changelog
 
-* fix: try ([df2421f](https://github.com/yaswanth6240/test-repo/commit/df2421f))
-* fix: try ([df5d7f8](https://github.com/yaswanth6240/test-repo/commit/df5d7f8))
-* fix: try ([2ddd996](https://github.com/yaswanth6240/test-repo/commit/2ddd996))
-* fix: try ([e16168f](https://github.com/yaswanth6240/test-repo/commit/e16168f))
-* fix: try ([55168bc](https://github.com/yaswanth6240/test-repo/commit/55168bc))
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 2.4.6 (2024-03-08)
 
 
+### Bug Fixes
 
-## <small>2.4.4 (2024-03-07)</small>
-
-* chore(release): v2.4.4 [skip ci] ([af51351](https://github.com/yaswanth6240/test-repo/commit/af51351))
-* fix: try ([d94cd1e](https://github.com/yaswanth6240/test-repo/commit/d94cd1e))
-* fix: try ([a50ba76](https://github.com/yaswanth6240/test-repo/commit/a50ba76))
-
-
-
-## <small>2.4.3 (2024-03-07)</small>
-
-* chore(release): v2.4.3 [skip ci] ([8d063a1](https://github.com/yaswanth6240/test-repo/commit/8d063a1))
-* fix: try ([398ba0e](https://github.com/yaswanth6240/test-repo/commit/398ba0e))
-
-
-
-## <small>2.4.2 (2024-03-07)</small>
-
-* chore(release): v2.4.2 [skip ci] ([79f54a3](https://github.com/yaswanth6240/test-repo/commit/79f54a3))
-
-
-
-## <small>v2.4.2 (2024-03-07)</small>
-
-* fix: try ([e9921f7](https://github.com/yaswanth6240/test-repo/commit/e9921f7))
-
-
-
-## <small>2.4.1 (2024-03-07)</small>
-
-* chore(release): v2.4.1 [skip ci] ([f5555a6](https://github.com/yaswanth6240/test-repo/commit/f5555a6))
-* fix: try ([a604171](https://github.com/yaswanth6240/test-repo/commit/a604171))
-
-
+* try ([1db681f](https://github.com/yaswanth6240/test-repo/commit/1db681f350ca7889d6566fa7fbf48e510ee0ec0a))
 
 ## 2.4.0 (2024-03-07)
 
@@ -750,6 +717,3 @@
 * chore: release 1.0.1 ([36fe3a6](https://github.com/yaswanth6240/test-repo/commit/36fe3a6))
 * initial commit ([e55787d](https://github.com/yaswanth6240/test-repo/commit/e55787d))
 * Second commit ([fd5fb80](https://github.com/yaswanth6240/test-repo/commit/fd5fb80))
-
-
-

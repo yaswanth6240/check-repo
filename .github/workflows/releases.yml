@@ -46,6 +46,11 @@ jobs:
           git push --follow-tags origin main
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      
+      - name: Trigger Publish Workflow
+        uses: actions/workflow-dispatch@v2
+        with:
+          workflow: publish.yml
 
       # - name: make config
       #   run: npm run makeconfig

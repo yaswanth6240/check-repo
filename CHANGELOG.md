@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.7.0 (2024-03-08)
+
+
+### Bug Fixes
+
+* try ([1a0a2b3](https://github.com/yaswanth6240/test-repo/commit/1a0a2b390b9799972aeb83e3e69c9ef4b8b3b597))
+
 ### 2.6.3 (2024-03-08)
 
 

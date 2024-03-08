@@ -47,7 +47,6 @@ jobs:
           git push --follow-tags origin main
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-          
 
       - name: Publish package on NPM 📦
         run: npm publish

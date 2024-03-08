@@ -47,10 +47,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       
-      - name: Trigger Publish Workflow
-        uses: actions/workflow-dispatch@v2
-        with:
-          workflow: publish.yml
+      - name: Publish package on NPM 📦
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
 
       # - name: make config
       #   run: npm run makeconfig

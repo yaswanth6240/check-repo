@@ -46,7 +46,13 @@ jobs:
           git push --follow-tags origin main
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-      
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+          registry-url: 'https://registry.npmjs.org'
+
       - name: Publish package on NPM 📦
         run: npm publish
         env:

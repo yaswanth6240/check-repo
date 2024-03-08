@@ -40,7 +40,7 @@ jobs:
         run: npm install
 
       - name: Run standard-version
-        run: npx standard-version --release-as ${{ github.event.head_commit.message }}
+        run: npx standard-version --release-as ${{ github.event.head_commit.message | replace('release:', '')}}
 
       - name: Push tags and changelog
         run: |

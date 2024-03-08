@@ -20,6 +20,7 @@ jobs:
 
   release-on-push:
     if: github.event_name == 'push'
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -38,7 +39,7 @@ jobs:
       - name: Push tags and changelog
         run: |
           git push --follow-tags origin main
-        with:
+        env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
       # - name: make config

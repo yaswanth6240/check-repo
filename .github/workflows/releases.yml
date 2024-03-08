@@ -1,17 +1,14 @@
 name: Releases
 on:
-  
   pull_request:
     types:
       - closed
       - opened
       - edited
-      - synchronize
-
 
 jobs:
   build-on-pr:
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
     runs-on: ubuntu-latest
     steps:
       - name: Install GitVersion
@@ -43,8 +40,8 @@ jobs:
       - name: Debug github
         run: |
           echo "${{ github.event_name }}"
-          echo "${{ github.event }}"
-          echo "${{ github.event.pull_request.title }}"
+          echo "${{ toJSON(github.event) }}"
+          echo "${{ toJSON(github.event.pull_request) }}"
 
       - name: Run standard-version
         run: npx standard-version --release-as patch

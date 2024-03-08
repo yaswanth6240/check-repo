@@ -7,6 +7,10 @@ on:
   pull_request:
     branches:
       - main
+  
+  pull_request:
+    types:
+      - closed
 
 jobs:
   build-on-pr:
@@ -18,8 +22,8 @@ jobs:
           wget https://github.com/GitTools/GitVersion/releases/download/5.12.0/gitversion-linux-x64-5.12.0.tar.gz
           tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
 
-  release-on-push:
-    if: github.event_name == 'push'
+  merged-pr:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -42,10 +46,11 @@ jobs:
       - name: Debug github
         run: |
           echo "${{ github.event_name }}"
-          echo "${{github.event}}"
+          echo "${{ github.event }}"
+          echo "${{ github.event.pull_request.title }}"
 
       - name: Run standard-version
-        run: npx standard-version --release-as minor
+        run: npx standard-version --release-as patch
 
       - name: Push tags and changelog
         run: |

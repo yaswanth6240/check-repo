@@ -47,11 +47,11 @@ jobs:
         id: determine-release
         run: |
           if [[ "${{ github.event.pull_request.title }}" =~ "BREAKING" ]]; then
-            echo "release_type = major" >> $GITHUB_OUTPUT
+            echo "release_type=major" >> $GITHUB_OUTPUT
           elif [[ "${{ github.event.pull_request.title }}" =~ "minor" ]]; then
-            echo "release_type = minor" >> $GITHUB_OUTPUT
+            echo "release_type=minor" >> $GITHUB_OUTPUT
           else
-            echo "release_type = patch" >> $GITHUB_OUTPUT
+            echo "release_type=patch" >> $GITHUB_OUTPUT
           fi
         shell: bash
 

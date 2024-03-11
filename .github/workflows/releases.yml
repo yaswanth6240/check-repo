@@ -4,7 +4,9 @@ on:
     types:
       - closed
       - opened
-      - edited #reopen 
+      - edited
+      - synchronize
+      - reopened
 
 jobs:
   build-on-pr:
@@ -48,9 +50,9 @@ jobs:
         run: |
           shopt -s nocasematch
 
-          if [[ "${{ github.event.pull_request.title }}" =~ ([breaking]|[major]) ]]; then
+          if [[ "${{ github.event.pull_request.title }}" =~ (\[breaking\]|\[major\]) ]]; then
             echo "release_type=major" >> $GITHUB_OUTPUT
-          elif [[ "${{ github.event.pull_request.title }}" =~ "[minor]" ]]; then
+          elif [[ "${{ github.event.pull_request.title }}" =~ \[minor\] ]]; then
             echo "release_type=minor" >> $GITHUB_OUTPUT
           else
             echo "release_type=patch" >> $GITHUB_OUTPUT

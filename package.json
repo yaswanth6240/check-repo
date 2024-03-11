@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/yaswanth6240/test-repo/issues"
   },
-  "homepage": "https://github.com/yaswanth6240/test-repo#readme",
-  "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^7.0.2"
-  }
+  "homepage": "https://github.com/yaswanth6240/test-repo#readme"
 }

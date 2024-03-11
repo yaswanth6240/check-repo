@@ -4,7 +4,7 @@ on:
     types:
       - closed
       - opened
-      - edited
+      - edited #reopen 
 
 jobs:
   build-on-pr:
@@ -17,7 +17,7 @@ jobs:
           tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
 
   merged-pr:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' # will it build for declined?
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -28,8 +28,8 @@ jobs:
         with:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
-      
-      - name: Set up Git identity
+
+      - name: Set up Git identity  # try no to use our own username
         run: |
           git config user.email "yaswanth6240@gmail.com"
           git config user.name "yaswanth6240"
@@ -48,9 +48,9 @@ jobs:
         run: |
           shopt -s nocasematch
 
-          if [[ "${{ github.event.pull_request.title }}" =~ (breaking|major) ]]; then
+          if [[ "${{ github.event.pull_request.title }}" =~ ([breaking]|[major]) ]]; then
             echo "release_type=major" >> $GITHUB_OUTPUT
-          elif [[ "${{ github.event.pull_request.title }}" =~ "minor" ]]; then
+          elif [[ "${{ github.event.pull_request.title }}" =~ "[minor]" ]]; then
             echo "release_type=minor" >> $GITHUB_OUTPUT
           else
             echo "release_type=patch" >> $GITHUB_OUTPUT

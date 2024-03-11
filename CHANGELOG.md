@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 3.1.5 (2024-03-11)
+
+
+### Bug Fixes
+
+* try release ([bded374](https://github.com/yaswanth6240/test-repo/commit/bded3746bb06282526a61d23234eb7b158c8df70))
+
 ### 3.1.4 (2024-03-11)
 
 ### 3.1.3 (2024-03-11)

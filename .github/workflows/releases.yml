@@ -54,15 +54,12 @@ jobs:
           shopt -u nocasematch
         shell: bash
 
-      - name: Capture changelog
-        id: capture-changelog
-        run: echo "::set-output name=changelog::$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
-
       - name: Run standard version
         id: standard-version
         run: |
           npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
           echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
+          echo "::set-output name=changelog::$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
 
       - name: Push tags and changelog
         run: git push --follow-tags origin main

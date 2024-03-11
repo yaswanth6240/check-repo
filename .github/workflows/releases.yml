@@ -54,30 +54,27 @@ jobs:
           shopt -u nocasematch
         shell: bash
 
-      - name: Run standard version
+      - name: Run release please
         id: standard-version
-        run: |
-          npx standard-version
-          echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
-          echo "::set-output name=changelog::$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
+        run: npx release-please
 
-      - name: Push tags and changelog
-        run: git push --follow-tags origin main
-        env:
-          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      # - name: Push tags and changelog
+      #   run: git push --follow-tags origin main
+      #   env:
+      #     GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
       - name: Debug github
         run: |
           echo "${{ toJson(steps) }}"
 
-      - name: create release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-        with:
-          tag_name: "${{ steps.standard-version.outputs.tag }}"
-          release_name: "${{ steps.standard-version.outputs.tag }}"
-          body: ${{ steps.capture-changelog.outputs.changelog }}
+      # - name: create release
+      #   uses: actions/create-release@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      #   with:
+      #     tag_name: "${{ steps.standard-version.outputs.tag }}"
+      #     release_name: "${{ steps.standard-version.outputs.tag }}"
+      #     body: ${{ steps.capture-changelog.outputs.changelog }}
 
       - name: Publish package on NPM 📦
         run: npm publish

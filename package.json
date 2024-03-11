@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yaswanth6240/test-repo/issues"
   },
-  "homepage": "https://github.com/yaswanth6240/test-repo#readme"
+  "homepage": "https://github.com/yaswanth6240/test-repo#readme",
+  "dependencies": {
+    "release-please": "^16.9.0"
+  }
 }

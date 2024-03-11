@@ -57,7 +57,7 @@ jobs:
       - name: Run standard version
         id: standard-version
         run: |
-          npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
+          npx standard-version
           echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
           echo "::set-output name=changelog::$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
 

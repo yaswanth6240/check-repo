@@ -60,7 +60,7 @@ jobs:
           shopt -u nocasematch
         shell: bash
 
-      - name: Run standard-version
+      - name: Run standard-version # do github release also
         run: npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
 
       - name: Push tags and changelog
@@ -68,6 +68,16 @@ jobs:
           git push --follow-tags origin main
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+
+      - name: create release
+        uses: actions/create-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          tag_name: "${{ steps.changelog.outputs.tag }}"
+          release_name: "${{ steps.changelog.outputs.tag }}"
+          body: ${{ steps.changelog.outputs.clean_changelog }}
 
       - name: Publish package on NPM 📦
         run: npm publish

@@ -55,10 +55,13 @@ jobs:
         shell: bash
 
       - name: Run release please # do github release also
+        id: standard-version
         run: |
           npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
           echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
+          echo "${{ steps.standard-version.outputs.tag }}"
           echo "::set-output name=changelog::$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
+          echo "${{ steps.standard-version.outputs.changelog }}"
 
       - name: Push tags and changelog
         run: |

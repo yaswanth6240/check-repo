@@ -55,7 +55,7 @@ jobs:
         shell: bash
 
       - name: Run release please # do github release also
-        run: npx release-please --release-as ${{ steps.determine-release.outputs.release_type }}
+        run: npx release-please --Release-As ${{ steps.determine-release.outputs.release_type }}
 
       - name: Push tags and changelog
         run: |

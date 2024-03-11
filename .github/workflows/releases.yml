@@ -39,7 +39,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Determine release type # don't build on skip-ci
+      - name: Determine release type
         id: determine-release
         run: |
           shopt -s nocasematch

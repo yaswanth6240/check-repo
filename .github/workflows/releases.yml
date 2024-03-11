@@ -19,7 +19,7 @@ jobs:
           tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
 
   merged-pr:
-    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && ! echo "${{ github.event.pull_request.title }}" | grep -qi "\[skip ci\]"
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && ! contains(github.event.pull_request.title, '[skip ci]')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -33,8 +33,8 @@ jobs:
 
       - name: Set up Git identity  # try no to use our own username
         run: |
-          git config user.email "yaswanth6240@gmail.com"
-          git config user.name "yaswanth6240"
+          git config user.email github-actions@github.com
+          git config user.name github-actions
 
       - name: Install dependencies
         run: npm install

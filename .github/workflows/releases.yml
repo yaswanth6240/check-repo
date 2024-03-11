@@ -54,7 +54,7 @@ jobs:
           shopt -u nocasematch
         shell: bash
 
-      - name: Run release please # do github release also
+      - name: Run standard version
         id: standard-version
         run: |
           npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}

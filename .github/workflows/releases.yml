@@ -19,7 +19,7 @@ jobs:
           tar -xzvf gitversion-linux-x64-5.12.0.tar.gz
 
   merged-pr:
-    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && ! echo "${{ github.event.pull_request.title }}" | grep -qi "\[skip ci\]"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -78,9 +78,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
-          tag_name: "${{ steps.standard-version.outputs.tag }}" # git tag
-          release_name: "${{ steps.standard-version.outputs.tag }}" # git tag
-          body: ${{ steps.capture-changelog.outputs.changelog }} # PR description
+          tag_name: "${{ steps.standard-version.outputs.tag }}"
+          release_name: "${{ steps.standard-version.outputs.tag }}"
+          body: ${{ steps.capture-changelog.outputs.changelog }}
 
       - name: Publish package on NPM 📦
         run: npm publish

@@ -31,7 +31,7 @@ jobs:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Set up Git identity  # try no to use our own username
+      - name: Set up Git identity
         run: |
           git config user.email github-actions@github.com
           git config user.name github-actions

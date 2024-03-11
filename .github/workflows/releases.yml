@@ -39,13 +39,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Debug github
-        run: |
-          echo "${{ github.event_name }}"
-          echo "${{ github.event }}"
-          echo "${{ github.event.pull_request }}"
-
-      - name: Determine release type
+      - name: Determine release type # don't build on skip-ci
         id: determine-release
         run: |
           shopt -s nocasematch
@@ -60,8 +54,8 @@ jobs:
           shopt -u nocasematch
         shell: bash
 
-      - name: Run standard-version # do github release also
-        run: npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
+      - name: Run release please # do github release also
+        run: npx release-please --release-as ${{ steps.determine-release.outputs.release_type }}
 
       - name: Push tags and changelog
         run: |
@@ -73,15 +67,15 @@ jobs:
         run: |
           echo "${{ toJson(steps) }}"
 
-      - name: create release
-        uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-        with:
-          tag_name: "${{ steps.changelog.outputs.tag }}"
-          release_name: "${{ steps.changelog.outputs.tag }}"
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+      # - name: create release
+      #   uses: actions/create-release@v1
+      #   if: ${{ steps.changelog.outputs.skipped == 'false' }}
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      #   with:
+      #     tag_name: "${{ steps.changelog.outputs.tag }}" # git tag
+      #     release_name: "${{ steps.changelog.outputs.tag }}" # git tag
+      #     body: ${{ steps.changelog.outputs.clean_changelog }} # PR description
 
       - name: Publish package on NPM 📦
         run: npm publish

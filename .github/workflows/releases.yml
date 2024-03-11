@@ -59,12 +59,11 @@ jobs:
         run: |
           npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
           echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
-          echo "${{ steps.standard-version.outputs.tag }}"
-          echo "::set-output name=changelog::$(git log $(git describe --abbrev=1 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
-          echo "${{ steps.standard-version.outputs.changelog }}"
+          echo "::set-output name=changelog::$(git log $(git describe --abbrev=1 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}' | tail -n +2)"
 
       - name: Push tags and changelog
         run: |
+          git show HEAD
           git push --follow-tags origin main
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}

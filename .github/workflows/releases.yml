@@ -83,7 +83,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
-
       - name: Push tags and changelog
         run: git push --follow-tags origin main
         env:

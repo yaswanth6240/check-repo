@@ -10,7 +10,6 @@ on:
       - synchronize
       - reopened
 
-
 jobs:
   build-on-pr:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'

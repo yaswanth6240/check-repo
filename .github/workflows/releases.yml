@@ -48,11 +48,6 @@ jobs:
           node-version: 18
           registry-url: "https://registry.npmjs.org"
 
-      - name: Set up Git identity
-        run: |
-          git config user.email github-actions@github.com
-          git config user.name github-actions
-
       - name: Install dependencies
         run: npm install
 

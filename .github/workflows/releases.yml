@@ -118,5 +118,5 @@ jobs:
         run: git status
 
       - name: Debug steps
-        run: echo "${{toJson(steps)}}"
+        run: echo "${{ toJson(steps) }}"
   

@@ -19,7 +19,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.RELEASE_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: ${{ github.event.pull_request.commits }}
 
@@ -39,7 +39,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.RELEASE_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: ${{ github.event.pull_request.commits }}
 
       - name: Set up Node.js
@@ -71,7 +71,7 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v5.1.0
         with:
-          github-token: ${{ secrets.RELEASE_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           release-count: 0
           skip-version-file: "true"
           skip-commit: "true"
@@ -91,12 +91,12 @@ jobs:
       - name: Push tags and changelog
         run: git push --follow-tags origin main
         env:
-          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: create release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: "${{ steps.standard-version.outputs.tag_name }}"
           release_name: "${{ steps.standard-version.outputs.tag_name }}"

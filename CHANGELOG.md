@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.1.1](https://github.com/yaswanth6240/test-repo/compare/v4.1.0...v4.1.1) (2024-03-12)
+
+
+### Bug Fixes
+
+* automatic publish token ([7cb07ac](https://github.com/yaswanth6240/test-repo/commit/7cb07ac1fd64a7aacf2194bf57f068d4243208fd))
+
 ## [4.1.0](https://github.com/yaswanth6240/test-repo/compare/v4.0.0...v4.1.0) (2024-03-12)
 
 

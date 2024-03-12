@@ -8,6 +8,10 @@ on:
       - synchronize
       - reopened
 
+  push:
+    branches:
+      - main
+
 jobs:
   build-on-pr:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
@@ -57,7 +61,7 @@ jobs:
       - name: Run release please
 
         id: standard-version
-        run: npx semantic-release
+        run: npx standard-version
         
 
         env:
@@ -88,3 +92,31 @@ jobs:
       #   run: npm publish
       #   env:
       #     NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+
+  release-on-push:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies 🔧
+        run: npm i
+
+      - name: Conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v5.1.0
+        with:
+          github-token: ${{ secrets.RELEASE_TOKEN }
+          release-count: 0
+          skip-version-file: 'true'
+          skip-commit: 'true'
+          git-push: 'false'
+          skip-tag: 'true'
+          skip-bump: 'true'
+
+
+      - name: Files changed
+        run: git status
+
+      - name: Debug steps
+        run: echo "${{toJson(steps)}}"
+  

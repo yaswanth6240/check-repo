@@ -87,8 +87,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
-          tag_name: "${{ steps.standard-version.outputs.tag }}"
-          release_name: "${{ steps.standard-version.outputs.tag }}"
+          tag_name: "v3.1.14"
+          release_name: "v3.1.14"
           body: ""
 
       - name: Publish package on NPM 📦

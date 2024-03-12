@@ -1,6 +1,8 @@
 name: Releases
 on:
   pull_request:
+    branches:
+      - main
     types:
       - closed
       - opened
@@ -27,9 +29,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v3

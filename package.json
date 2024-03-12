@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/yaswanth6240/test-repo/issues"
   },
-  "homepage": "https://github.com/yaswanth6240/test-repo#readme",
-  "devDependencies": {
-    "semantic-release": "^22.0.0"
-  }
+  "homepage": "https://github.com/yaswanth6240/test-repo#readme"
 }

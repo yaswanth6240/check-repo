@@ -10,10 +10,6 @@ on:
       - synchronize
       - reopened
 
-  push:
-    branches:
-      - main
-
 jobs:
   build-on-pr:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
@@ -48,6 +44,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: git log
+        run: |
+          git log
+          echo "${{ toJson(github.event) }}"
+          echo "${{ toJson(github.event.pull_request) }}"
+
       - name: Determine release type
         id: determine-release
         run: |
@@ -63,7 +65,6 @@ jobs:
           shopt -u nocasematch
         shell: bash
 
-
       # - name: Conventional Changelog Action
       #   id: changelog
       #   uses: TriPSs/conventional-changelog-action@v5.1.0
@@ -75,9 +76,6 @@ jobs:
       #     git-push: 'false'
       #     skip-tag: 'true'
       #     skip-bump: 'true'
-
-      - name: git log
-        run: git log
 
 
       - name: Run standard version

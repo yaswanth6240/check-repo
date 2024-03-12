@@ -13,3 +13,4 @@ console.log("Doing a publish")
 console.log("Doing a publish minor")
 
 console.log("a release")
+

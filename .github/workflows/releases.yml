@@ -31,10 +31,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: git log
-        run: |
-          git log
-
   merged-pr:
     if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && ! contains(github.event.pull_request.title, '[skip ci]')
     runs-on: ubuntu-latest
@@ -59,12 +55,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: git log
-        run: |
-          git log
-          echo "${{ toJson(github.event) }}"
-          echo "${{ toJson(github.event.pull_request) }}"
-
       - name: Determine release type
         id: determine-release
         run: |
@@ -79,6 +69,21 @@ jobs:
           fi
           shopt -u nocasematch
         shell: bash
+
+      - name: Conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v5.1.0
+        with:
+          github-token: ${{ secrets.RELEASE_TOKEN }}
+          release-count: 0
+          skip-version-file: 'true'
+          skip-commit: 'true'
+          git-push: 'false'
+          skip-tag: 'true'
+          skip-bump: 'true'
+
+      - name: Stash changes
+        run: git reset --hard
 
       - name: Run standard version
         id: standard-version

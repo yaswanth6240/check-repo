@@ -82,10 +82,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
-      # - name: Debug github
-      #   run: |
-      #     echo "${{ toJson(steps) }}"
-
       - name: create release
         uses: actions/create-release@v1
         env:

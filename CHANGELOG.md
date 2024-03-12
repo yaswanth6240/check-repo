@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.20](https://github.com/yaswanth6240/test-repo/compare/v3.1.19...v3.1.20) (2024-03-12)
+
+
+### Bug Fixes
+
+* a commit ([445b88b](https://github.com/yaswanth6240/test-repo/commit/445b88b307a3ec006cccf284620f8e9de3181657))
+* commit one ([5d2e23d](https://github.com/yaswanth6240/test-repo/commit/5d2e23d74bfc54290f28e0a6f391a915f7093a77))
+
 ### 3.1.19 (2024-03-12)
 
 

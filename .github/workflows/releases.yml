@@ -70,7 +70,7 @@ jobs:
       #     skip-tag: 'true'
       #     skip-bump: 'true'
 
-      - name: Run release please
+      - name: Run standard version
         id: standard-version
         run: npx standard-version
         env:
@@ -82,27 +82,27 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
-      - name: create release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-        with:
-          tag_name: "v3.1.14"
-          release_name: "v3.1.14"
-          body: ""
+      # - name: create release
+      #   uses: actions/create-release@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      #   with:
+      #     tag_name: "v4.0.0"
+      #     release_name: "v4.0.0"
+      #     body: ""
 
       - name: Publish package on NPM 📦
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
 
-  release-on-push:
-    if: github.event_name == 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Install dependencies 🔧
-        run: npm i
+  # release-on-push:
+  #   if: github.event_name == 'push'
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Install dependencies 🔧
+  #       run: npm i
 
       # - name: Conventional Changelog Action
       #   id: changelog
@@ -116,12 +116,12 @@ jobs:
       #     skip-tag: 'true'
       #     skip-bump: 'true'
 
-      - name: Run release please
-        id: standard-version
-        run: npx standard-version
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-          GH_TOKEN: ${{ secrets.RELEASE_TOKEN}}
+      # - name: Run release please
+      #   id: standard-version
+      #   run: npx standard-version
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+      #     GH_TOKEN: ${{ secrets.RELEASE_TOKEN}}
 
 
       # - name: Files changed

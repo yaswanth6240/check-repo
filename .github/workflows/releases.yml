@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.RELEASE_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -79,7 +81,8 @@ jobs:
         run: npx standard-version
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-          GH_TOKEN: ${{ secrets.RELEASE_TOKEN}}
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+
 
       - name: Push tags and changelog
         run: git push --follow-tags origin main

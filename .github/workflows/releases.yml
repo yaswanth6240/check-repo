@@ -35,10 +35,18 @@ jobs:
     if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && !contains(github.event.pull_request.title, '[skip ci]')
     runs-on: ubuntu-latest
     steps:
+
+      - name: Generate GitHub app token
+        id: generate_app_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.generate_app_token.outputs.token }}
           fetch-depth: ${{ github.event.pull_request.commits }}
 
       - name: Set up Node.js
@@ -70,7 +78,7 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v5.1.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ steps.generate_app_token.outputs.token }}
           release-count: 0
           skip-version-file: "true"
           skip-commit: "true"
@@ -90,12 +98,12 @@ jobs:
       - name: Push tags and changelog
         run: git push --follow-tags origin main
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.generate_app_token.outputs.token }}
 
       - name: create release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate_app_token.outputs.token }}
         with:
           tag_name: "${{ steps.standard-version.outputs.tag_name }}"
           release_name: "${{ steps.standard-version.outputs.tag_name }}"

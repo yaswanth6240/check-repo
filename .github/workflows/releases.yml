@@ -58,6 +58,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+
       - name: Determine release type
         id: determine-release
         run: |

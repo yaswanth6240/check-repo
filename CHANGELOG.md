@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.2.2](https://github.com/yaswanth6240/test-repo/compare/v4.2.1...v4.2.2) (2024-03-19)
+
+
+### Bug Fixes
+
+* release ([f5de219](https://github.com/yaswanth6240/test-repo/commit/f5de21970745f113fa480cc71ef032a25a416958))
+
 ### [4.2.1](https://github.com/yaswanth6240/test-repo/compare/v4.2.0...v4.2.1) (2024-03-19)
 
 

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 4.2.7 (2024-03-19)
+
+
+### Bug Fixes
+
+* app ([82fb5ea](https://github.com/yaswanth6240/test-repo/commit/82fb5ea5074238d333578192000a2f1edb88cd93))
+
 ### 4.2.6 (2024-03-19)
 
 

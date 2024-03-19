@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 4.2.6 (2024-03-19)
+
+
+### Bug Fixes
+
+* token ([8c06626](https://github.com/yaswanth6240/test-repo/commit/8c066268e8206b8c3a79c3f3c8642d723054fcd2))
+
 ### 4.2.5 (2024-03-19)
 
 

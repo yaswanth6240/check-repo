@@ -1,6 +1,6 @@
 {
   "name": "test-yaswanth",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "Test repo for github actions",
   "main": "index.js",
   "scripts": {

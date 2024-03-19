@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.2.1](https://github.com/yaswanth6240/test-repo/compare/v4.2.0...v4.2.1) (2024-03-19)
+
+
+### Bug Fixes
+
+* admin for app ([818699f](https://github.com/yaswanth6240/test-repo/commit/818699f5f5dadcbf96b43ff7aa0ff4774c4fe27c))
+* release ([e3a863d](https://github.com/yaswanth6240/test-repo/commit/e3a863d6328a582bcb8882f61e514f061160e40f))
+* release ([1199ca9](https://github.com/yaswanth6240/test-repo/commit/1199ca938663dc4493e612b5e9833115fc4a710a))
+* release ([327ace0](https://github.com/yaswanth6240/test-repo/commit/327ace053716664243b4694965ecdbe0559e8efd))
+* token ([24e923d](https://github.com/yaswanth6240/test-repo/commit/24e923d0be4ff7163c5ee2a7331932b370daf3b8))
+* token ([0e5d12e](https://github.com/yaswanth6240/test-repo/commit/0e5d12e48c455c7676fec23d2d532505d3951ff7))
+* token ([21e385d](https://github.com/yaswanth6240/test-repo/commit/21e385d9d4b2bb8d86b65c9ae6d839b2c5219d13))
+* token ([8c4f5f5](https://github.com/yaswanth6240/test-repo/commit/8c4f5f5317a8aea63c9541d36100aa66caddaca6))
+
 ## [4.2.0](https://github.com/yaswanth6240/test-repo/compare/v4.1.1...v4.2.0) (2024-03-12)
 
 

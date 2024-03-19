@@ -36,7 +36,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-
       - name: Generate GitHub app token
         id: generate_app_token
         uses: actions/create-github-app-token@v1

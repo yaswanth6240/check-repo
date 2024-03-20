@@ -104,7 +104,6 @@ jobs:
         with:
           tag_name: "${{ steps.standard-version.outputs.tag_name }}"
           release_name: "${{ steps.standard-version.outputs.tag_name }}"
-          body: ""
 
       - name: Publish package on NPM 📦
         run: npm publish

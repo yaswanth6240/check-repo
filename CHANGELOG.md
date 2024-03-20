@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.3.4](https://github.com/yaswanth6240/test-repo/compare/v4.3.3...v4.3.4) (2024-03-20)
+
+
+### Features
+
+* updated workflows ([27b33b3](https://github.com/yaswanth6240/test-repo/commit/27b33b3e32c8f05fae207891132bad643069614e))
+
+
+### Bug Fixes
+
+* workflow ([0d6af7a](https://github.com/yaswanth6240/test-repo/commit/0d6af7a40777b9018716cd81b8493c1e78d425e7))
+
 ### [4.3.3](https://github.com/yaswanth6240/test-repo/compare/v4.3.2...v4.3.3) (2024-03-20)
 
 

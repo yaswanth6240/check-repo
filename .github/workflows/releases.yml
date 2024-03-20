@@ -3,7 +3,7 @@ on:
   
   pull_request:
     branches:
-      - main-1
+      - main
     types:
       - closed
       - opened
@@ -87,6 +87,7 @@ jobs:
           git-push: "false"
           skip-tag: "true"
           skip-bump: "true"
+          output-file: "false"
 
       - name: Stash changes
         run: git reset --hard
@@ -95,7 +96,6 @@ jobs:
         run: |
           git config --local user.name 'app-to-push[bot]'
           git config --local user.email '163297751+app-to-push[bot]@users.noreply.github.com'
-
 
       - name: Run standard version
         id: standard-version

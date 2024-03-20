@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 4.2.10 (2024-03-20)
+
+
+### Bug Fixes
+
+* changelog ([c356a10](https://github.com/yaswanth6240/test-repo/commit/c356a1066400fa96a70c851ee6060f5248638491))
+
 ### 4.2.9 (2024-03-20)
 
 

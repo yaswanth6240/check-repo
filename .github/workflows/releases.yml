@@ -87,9 +87,9 @@ jobs:
       - name: Run standard version
         id: standard-version
         run: |
+          echo "::set-output name=changelog::$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
           npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
           echo "tag_name=$(git describe --abbrev=0 --tags)" >>$GITHUB_OUTPUT
-          echo "::set-output name=changelog::$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
 
       - name: Push tags and changelog
         run: git push --follow-tags origin main

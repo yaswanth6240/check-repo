@@ -81,14 +81,15 @@ jobs:
           shopt -u nocasematch
         shell: bash
 
-      - name: Stash changes
-        run: git reset --hard
+      # - name: Stash changes
+      #   run: git reset --hard
 
       - name: Run standard version
         id: standard-version
         run: |
           npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
           echo "tag_name=$(git describe --abbrev=0 --tags)" >>$GITHUB_OUTPUT
+          echo "::set-output name=changelog::$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')"
 
       - name: Push tags and changelog
         run: git push --follow-tags origin main
@@ -102,7 +103,7 @@ jobs:
         with:
           tag_name: "${{ steps.standard-version.outputs.tag_name }}"
           release_name: "${{ steps.standard-version.outputs.tag_name }}"
-          body: "${{ steps.standard-version.outputs.tag_name }}"
+          body: "${{ steps.standard-version.outputs.changelog }}"
 
       - name: Publish package on NPM 📦
         run: npm publish

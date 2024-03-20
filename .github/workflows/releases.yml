@@ -6,35 +6,11 @@ on:
       - main
     types:
       - closed
-      - opened
-      - edited
-      - synchronize
-      - reopened
 
 
 jobs:
-  build-on-pr:
-    if: github.event_name == 'pull_request' && github.event.action != 'closed'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: ${{ github.event.pull_request.commits }}
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          registry-url: "https://registry.npmjs.org"
-
-      - name: Install dependencies
-        run: npm install
-
   merged-pr:
-    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && !contains(github.event.pull_request.title, '[skip ci]')
+    if: github.event.pull_request.merged == true && !contains(github.event.pull_request.title, '[skip ci]')
     runs-on: ubuntu-latest
     steps:
 
@@ -58,7 +34,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Determine release type
         id: determine-release
@@ -87,7 +63,6 @@ jobs:
           git-push: "false"
           skip-tag: "true"
           skip-bump: "true"
-          output-file: "false"
 
       - name: Stash changes
         run: git reset --hard

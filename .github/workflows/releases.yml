@@ -96,6 +96,7 @@ jobs:
           git config --local user.name 'app-to-push[bot]'
           git config --local user.email '163297751+app-to-push[bot]@users.noreply.github.com'
 
+
       - name: Run standard version
         id: standard-version
         run: |

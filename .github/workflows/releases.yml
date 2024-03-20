@@ -100,7 +100,6 @@ jobs:
       - name: Run standard version
         id: standard-version
         run: |
-          echo "changelog=$(git log $(git describe --abbrev=0 --tags)..HEAD --pretty=format:"%s%n%b" | sed '/^$/d' | awk '{printf "- %s\n", $0}')" >>$GITHUB_OUTPUT
           npx standard-version --release-as ${{ steps.determine-release.outputs.release_type }}
           echo "tag_name=$(git describe --abbrev=0 --tags)" >>$GITHUB_OUTPUT
 
